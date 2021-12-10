@@ -114,8 +114,8 @@ module decoder_7seg#(
 	parameter freq_disp= 1000				//display frequency 
 	)(
 	input clk_i,
-	input [digits*4-1:0] data_i,
-	output[7:0] 			segment_o,
+	input [digits*4-1:0] 	data_i,
+	output[7:0] 		segment_o,
 	output[digits-1:0]	select_o 
 );
 //instantiate decoder
@@ -146,25 +146,29 @@ initial begin
 end 
 
 //digit mux
-reg  [1:0] digit_select; 	//digit selector 
-reg  [3:0] digit_temp;		//holding selected 
-wire [6:0] decoder_out; 
-reg  [7:0] display_buf; 
-reg  [7:0] display_sel;
+reg  [1:0] 		digit_select; 	//digit selector 
+reg  [3:0] 		digit_temp;	//holding selected 
+wire [6:0] 		decoder_out; 
+reg  [7:0] 		display_buf; 
+reg  [7:0] 		display_sel;
+reg [digits*4-1:0] 	data_buf;	//synchronous buffer
+	
 always@(posedge clk_displ) begin
-		digit_select  <= digit_select + 1;
-		display_sel	<= 1 << digit_select;
-		display_buf <= decoder_out;
+	if( digit_select==0)
+		data_buf <= data_i; 
+	digit_select  <= digit_select + 1;
+	display_sel	<= 1 << digit_select;
+	display_buf <= decoder_out;
 end 	
 assign segment_o 	= display_buf;
 assign select_o	= display_sel;
 
 always@(*) begin 
 		case(digit_select)
-			'd0 : digit_temp = data_i % `DISPLAY_BASE;
-			'd1 : digit_temp = (data_i / `DISPLAY_BASE ) % `DISPLAY_BASE;
-			'd2 : digit_temp = ((data_i / `DISPLAY_BASE)/`DISPLAY_BASE)%`DISPLAY_BASE;
-			'd3 : digit_temp = (((data_i / `DISPLAY_BASE)/`DISPLAY_BASE)/`DISPLAY_BASE)%`DISPLAY_BASE;
+			'd0 : digit_temp = data_buf % base;
+			'd1 : digit_temp = (data_buf / base ) % base;
+			'd2 : digit_temp = ((data_buf / base ) / base ) % base;
+			'd3 : digit_temp = (((data_buf / base ) / base) / base ) % base;
 		endcase
 end
 endmodule 
