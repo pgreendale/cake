@@ -1,8 +1,8 @@
-#Experiences with Heltec ESP32 V3, Remote GPIO
+# Mashtastic: Experiences with remote GPIO on Heltec ESP32 V3 
 Setup of dev environment is done by following [this](https://meshtastic.org/docs/development/firmware/build/) manual by meshtastic, easy done on mac. 
 Settings in the source for remote GPIO access are provided within the [Meshtastic Manual](https://meshtastic.org/docs/configuration/module/remote-hardware/). <br>
 
-Additionally, I set 
+Additionally set 
 
 ```C
 #define MESHTASTIC_EXCLUDE_REMOTEHARDWARE 0
@@ -23,7 +23,7 @@ The relais card is a cheap one from china with 5V support. The 3.3V output from 
 
 
 <b>Attention!</b> Some of these relais cards can be set for L active input by some jumpers. These would activate a 5V pullup on the input pins. Afaik is the esp not rated for 5V, so you <i>may</i> damage your ESP32. Please check before connecting the board to your Lora device.  
-##Telemetry weirdness 
+## Telemetry weirdness 
 First, GPIOS doesnt seem to work, even with custom firmware. <br>
 Using the meshtastic python module from console with directly attached node 
 
@@ -47,20 +47,7 @@ foo@bar:~$ meshtastic  --set remote_hardware.allowUndefinedPinAccess true
 ```
 Disconnect the node from the computer and connect it to some other power source, like an USB charger.
 <br>
-###Testing
-The local control node provides the <i>gpio</i> channel which is subscripted by the remote controlled node whose pins shall be remotely controlled. <br>
-
-To test it, I am sending commands to the control node with the python module. The command node is directly attached to the computer via usb now: 
-
-```console
-foo@bar:~$ meshtastic  --gpio-wr 33 1 --dest <yournodeID>
-```
-
-```console
-foo@bar:~$ meshtastic  --gpio-wr 33 0 --dest <yournodeID>
-```
-
-Switches a connected LED or relay driver (active H) on  and off again. 
+## Testing
 
 ### Test for connection: read metrics<br> 
 An easy test if the node is connected is requesting its metrics. The destination node has a BME280 connected and telemetry [enabled](https://meshtastic.org/docs/configuration/module/telemetry/). 
@@ -94,4 +81,20 @@ environmentMetrics:
   barometricPressure: 987.247
 ```
 
+### Testing GPIO
+The local control node provides the <i>gpio</i> channel which is subscripted by the remote controlled node whose pins shall be remotely controlled. <br>
 
+Send commands to the control node by the python module meshtastic. The command node has to be directly attached to the computer via usb now: 
+
+```console
+foo@bar:~$ meshtastic  --gpio-wr 33 1 --dest <yournodeID>
+```
+
+```console
+foo@bar:~$ meshtastic  --gpio-wr 33 0 --dest <yournodeID>
+```
+
+Switches a connected LED or relay driver (active H) on  and off again. 
+
+
+All for now! 
