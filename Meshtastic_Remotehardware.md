@@ -1,4 +1,4 @@
-# Mashtastic: Experiences with remote GPIO on Heltec ESP32 V3 
+# Meshtastic: Experiences with remote GPIO on Heltec ESP32 V3 
 Setup of dev environment is done by following [this](https://meshtastic.org/docs/development/firmware/build/) manual by meshtastic, easy done on mac. 
 Settings in the source for remote GPIO access are provided within the [Meshtastic Manual](https://meshtastic.org/docs/configuration/module/remote-hardware/). <br>
 
