@@ -4,7 +4,7 @@ How about symmetrical-octo-broccoli? -> Codesnippets from selfeducation.
 ## List
 * [FPGA code snippets, verilog](https://github.com/pgreendale/cake/tree/main/FPGA%20-%20Verilog)
     * [Decoder for multi-digit 7 Segment Displays](https://github.com/pgreendale/cake/blob/main/FPGA%20-%20Verilog/decoder_7seg.v)
-    * [PMOD-DVP Camera with Sipeed Tang Primer 20k demo](https://github.com/pgreendale/cake/blob/main/FPGA%20-%20Verilog/SIPEED_PMOD_DVP/OV5640%20PMOD%20for%20Sipeed%20Tang%20Primer%2020K%20Dock.md)
+    * [PMOD-DVP Camera with Sipeed Tang Primer 20k demo](https://github.com/pgreendale/cake/tree/main/FPGA%20-%20Verilog/SIPEED_PMOD_DVP)
   
 * [Hilbert Curve, python](https://github.com/pgreendale/cake/blob/main/Hilbert_Python.ipynb) 
   * Jupyter notebook for hilbert curve generation by recursive usage of an python dictionary
