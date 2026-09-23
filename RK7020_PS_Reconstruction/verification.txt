@@ -1,0 +1,24 @@
+ps7_pll_init_data_3_0: matched at FSBL+0x1020C, 384 bytes
+ps7_clock_init_data_3_0: matched at FSBL+0x1038C, 252 bytes
+ps7_ddr_init_data_3_0: matched at FSBL+0x11F00, 1308 bytes
+ps7_mio_init_data_3_0: matched at FSBL+0x12534, 1164 bytes
+ps7_peripherals_init_data_3_0: matched at FSBL+0x1241C, 280 bytes
+ps7_post_config_3_0: matched at FSBL+0x100E0, 60 bytes
+ps7_debug_3_0: matched at FSBL+0x10194, 40 bytes
+ps7_pll_init_data_2_0: matched at FSBL+0x1020C, 384 bytes
+ps7_clock_init_data_2_0: matched at FSBL+0x1038C, 252 bytes
+ps7_ddr_init_data_2_0: matched at FSBL+0x111B4, 1324 bytes
+ps7_mio_init_data_2_0: matched at FSBL+0x117F8, 1164 bytes
+ps7_peripherals_init_data_2_0: matched at FSBL+0x10994, 280 bytes
+ps7_post_config_2_0: matched at FSBL+0x100E0, 60 bytes
+ps7_debug_2_0: matched at FSBL+0x10194, 40 bytes
+ps7_pll_init_data_1_0: matched at FSBL+0x1020C, 384 bytes
+ps7_clock_init_data_1_0: matched at FSBL+0x1038C, 252 bytes
+ps7_ddr_init_data_1_0: matched at FSBL+0x10488, 1292 bytes
+ps7_mio_init_data_1_0: matched at FSBL+0x10AAC, 1164 bytes
+ps7_peripherals_init_data_1_0: matched at FSBL+0x10994, 280 bytes
+ps7_post_config_1_0: matched at FSBL+0x100E0, 60 bytes
+ps7_debug_1_0: matched at FSBL+0x10194, 40 bytes
+BOOT header checksum verified
+54 MIO entries accounted for
+Reconstructed 21 initialization arrays all found verbatim in supplied FSBL

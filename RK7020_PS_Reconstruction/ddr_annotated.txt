@@ -1,0 +1,406 @@
+// .. .. reg_ddrc_soft_rstb = 0
+// .. .. reg_ddrc_powerdown_en = 0x0
+// .. .. reg_ddrc_data_bus_width = 0x0
+// .. .. reg_ddrc_burst8_refresh = 0x0
+// .. .. reg_ddrc_rdwr_idle_gap = 0x1
+// .. .. reg_ddrc_dis_rd_bypass = 0x0
+// .. .. reg_ddrc_dis_act_bypass = 0x0
+// .. .. reg_ddrc_dis_auto_refresh = 0x0
+EMIT_MASKWRITE(0XF8006000, 0x0001FFFFU ,0x00000080U),
+// .. .. reg_ddrc_t_rfc_nom_x32 = 0x82
+// .. .. reserved_reg_ddrc_active_ranks = 0x1
+// .. .. reg_ddrc_addrmap_cs_bit0 = 0x0
+EMIT_MASKWRITE(0XF8006004, 0x0007FFFFU ,0x00001082U),
+// .. .. reg_ddrc_hpr_min_non_critical_x32 = 0xf
+// .. .. reg_ddrc_hpr_max_starve_x32 = 0xf
+// .. .. reg_ddrc_hpr_xact_run_length = 0xf
+EMIT_MASKWRITE(0XF8006008, 0x03FFFFFFU ,0x03C0780FU),
+// .. .. reg_ddrc_lpr_min_non_critical_x32 = 0x1
+// .. .. reg_ddrc_lpr_max_starve_x32 = 0x2
+// .. .. reg_ddrc_lpr_xact_run_length = 0x8
+EMIT_MASKWRITE(0XF800600C, 0x03FFFFFFU ,0x02001001U),
+// .. .. reg_ddrc_w_min_non_critical_x32 = 0x1
+// .. .. reg_ddrc_w_xact_run_length = 0x8
+// .. .. reg_ddrc_w_max_starve_x32 = 0x2
+EMIT_MASKWRITE(0XF8006010, 0x03FFFFFFU ,0x00014001U),
+// .. .. reg_ddrc_t_rc = 0x1b
+// .. .. reg_ddrc_t_rfc_min = 0xa1
+// .. .. reg_ddrc_post_selfref_gap_x32 = 0x10
+EMIT_MASKWRITE(0XF8006014, 0x001FFFFFU ,0x0004285BU),
+// .. .. reg_ddrc_wr2pre = 0x13
+// .. .. reg_ddrc_powerdown_to_x32 = 0x6
+// .. .. reg_ddrc_t_faw = 0x16
+// .. .. reg_ddrc_t_ras_max = 0x24
+// .. .. reg_ddrc_t_ras_min = 0x13
+// .. .. reg_ddrc_t_cke = 0x4
+EMIT_MASKWRITE(0XF8006018, 0xF7FFFFFFU ,0x44E458D3U),
+// .. .. reg_ddrc_write_latency = 0x5
+// .. .. reg_ddrc_rd2wr = 0x7
+// .. .. reg_ddrc_wr2rd = 0xf
+// .. .. reg_ddrc_t_xp = 0x5
+// .. .. reg_ddrc_pad_pd = 0x0
+// .. .. reg_ddrc_rd2pre = 0x5
+// .. .. reg_ddrc_t_rcd = 0x7
+EMIT_MASKWRITE(0XF800601C, 0xFFFFFFFFU ,0x7282BCE5U),
+// .. .. reg_ddrc_t_ccd = 0x4
+// .. .. reg_ddrc_t_rrd = 0x6
+// .. .. reg_ddrc_refresh_margin = 0x2
+// .. .. reg_ddrc_t_rp = 0x7
+// .. .. reg_ddrc_refresh_to_x32 = 0x8
+// .. .. reg_ddrc_mobile = 0x0
+// .. .. reg_ddrc_en_dfi_dram_clk_disable = 0x0
+// .. .. reg_ddrc_read_latency = 0x7
+// .. .. reg_phy_mode_ddr1_ddr2 = 0x1
+// .. .. reg_ddrc_dis_pad_pd = 0x0
+EMIT_MASKWRITE(0XF8006020, 0x7FDFFFFCU ,0x270872D0U),
+// .. .. reg_ddrc_en_2t_timing_mode = 0x0
+// .. .. reg_ddrc_prefer_write = 0x0
+// .. .. reg_ddrc_mr_wr = 0x0
+// .. .. reg_ddrc_mr_addr = 0x0
+// .. .. reg_ddrc_mr_data = 0x0
+// .. .. ddrc_reg_mr_wr_busy = 0x0
+// .. .. reg_ddrc_mr_type = 0x0
+// .. .. reg_ddrc_mr_rdata_valid = 0x0
+EMIT_MASKWRITE(0XF8006024, 0x0FFFFFC3U ,0x00000000U),
+// .. .. reg_ddrc_final_wait_x32 = 0x7
+// .. .. reg_ddrc_pre_ocd_x32 = 0x0
+// .. .. reg_ddrc_t_mrd = 0x4
+EMIT_MASKWRITE(0XF8006028, 0x00003FFFU ,0x00002007U),
+// .. .. reg_ddrc_emr2 = 0x8
+// .. .. reg_ddrc_emr3 = 0x0
+EMIT_MASKWRITE(0XF800602C, 0xFFFFFFFFU ,0x00000008U),
+// .. .. reg_ddrc_mr = 0xb30
+// .. .. reg_ddrc_emr = 0x4
+EMIT_MASKWRITE(0XF8006030, 0xFFFFFFFFU ,0x00040B30U),
+// .. .. reg_ddrc_burst_rdwr = 0x4
+// .. .. reg_ddrc_pre_cke_x1024 = 0x16d
+// .. .. reg_ddrc_post_cke_x1024 = 0x1
+// .. .. reg_ddrc_burstchop = 0x0
+EMIT_MASKWRITE(0XF8006034, 0x13FF3FFFU ,0x000116D4U),
+// .. .. reg_ddrc_force_low_pri_n = 0x0
+// .. .. reg_ddrc_dis_dq = 0x0
+EMIT_MASKWRITE(0XF8006038, 0x00000003U ,0x00000000U),
+// .. .. reg_ddrc_addrmap_bank_b0 = 0x7
+// .. .. reg_ddrc_addrmap_bank_b1 = 0x7
+// .. .. reg_ddrc_addrmap_bank_b2 = 0x7
+// .. .. reg_ddrc_addrmap_col_b5 = 0x0
+// .. .. reg_ddrc_addrmap_col_b6 = 0x0
+EMIT_MASKWRITE(0XF800603C, 0x000FFFFFU ,0x00000777U),
+// .. .. reg_ddrc_addrmap_col_b2 = 0x0
+// .. .. reg_ddrc_addrmap_col_b3 = 0x0
+// .. .. reg_ddrc_addrmap_col_b4 = 0x0
+// .. .. reg_ddrc_addrmap_col_b7 = 0x0
+// .. .. reg_ddrc_addrmap_col_b8 = 0x0
+// .. .. reg_ddrc_addrmap_col_b9 = 0xf
+// .. .. reg_ddrc_addrmap_col_b10 = 0xf
+// .. .. reg_ddrc_addrmap_col_b11 = 0xf
+EMIT_MASKWRITE(0XF8006040, 0xFFFFFFFFU ,0xFFF00000U),
+// .. .. reg_ddrc_addrmap_row_b0 = 0x6
+// .. .. reg_ddrc_addrmap_row_b1 = 0x6
+// .. .. reg_ddrc_addrmap_row_b2_11 = 0x6
+// .. .. reg_ddrc_addrmap_row_b12 = 0x6
+// .. .. reg_ddrc_addrmap_row_b13 = 0x6
+// .. .. reg_ddrc_addrmap_row_b14 = 0x6
+// .. .. reg_ddrc_addrmap_row_b15 = 0xf
+EMIT_MASKWRITE(0XF8006044, 0x0FFFFFFFU ,0x0F666666U),
+// .. .. reg_phy_rd_local_odt = 0x0
+// .. .. reg_phy_wr_local_odt = 0x3
+// .. .. reg_phy_idle_local_odt = 0x3
+// .. .. reserved_reg_ddrc_rank0_wr_odt = 0x1
+// .. .. reserved_reg_ddrc_rank0_rd_odt = 0x0
+EMIT_MASKWRITE(0XF8006048, 0x0003F03FU ,0x0003C008U),
+// .. .. reg_phy_rd_cmd_to_data = 0x0
+// .. .. reg_phy_wr_cmd_to_data = 0x0
+// .. .. reg_phy_rdc_we_to_re_delay = 0x8
+// .. .. reg_phy_rdc_fifo_rst_disable = 0x0
+// .. .. reg_phy_use_fixed_re = 0x1
+// .. .. reg_phy_rdc_fifo_rst_err_cnt_clr = 0x0
+// .. .. reg_phy_dis_phy_ctrl_rstn = 0x0
+// .. .. reg_phy_clk_stall_level = 0x0
+// .. .. reg_phy_gatelvl_num_of_dq0 = 0x7
+// .. .. reg_phy_wrlvl_num_of_dq0 = 0x7
+EMIT_MASKWRITE(0XF8006050, 0xFF0F8FFFU ,0x77010800U),
+// .. .. reg_ddrc_dis_dll_calib = 0x0
+EMIT_MASKWRITE(0XF8006058, 0x00010000U ,0x00000000U),
+// .. .. reg_ddrc_rd_odt_delay = 0x3
+// .. .. reg_ddrc_wr_odt_delay = 0x0
+// .. .. reg_ddrc_rd_odt_hold = 0x0
+// .. .. reg_ddrc_wr_odt_hold = 0x5
+EMIT_MASKWRITE(0XF800605C, 0x0000FFFFU ,0x00005003U),
+// .. .. reg_ddrc_pageclose = 0x0
+// .. .. reg_ddrc_lpr_num_entries = 0x1f
+// .. .. reg_ddrc_auto_pre_en = 0x0
+// .. .. reg_ddrc_refresh_update_level = 0x0
+// .. .. reg_ddrc_dis_wc = 0x0
+// .. .. reg_ddrc_dis_collision_page_opt = 0x0
+// .. .. reg_ddrc_selfref_en = 0x0
+EMIT_MASKWRITE(0XF8006060, 0x000017FFU ,0x0000003EU),
+// .. .. reg_ddrc_go2critical_hysteresis = 0x0
+// .. .. reg_arb_go2critical_en = 0x1
+EMIT_MASKWRITE(0XF8006064, 0x00021FE0U ,0x00020000U),
+// .. .. reg_ddrc_wrlvl_ww = 0x41
+// .. .. reg_ddrc_rdlvl_rr = 0x41
+// .. .. reg_ddrc_dfi_t_wlmrd = 0x28
+EMIT_MASKWRITE(0XF8006068, 0x03FFFFFFU ,0x00284141U),
+// .. .. dfi_t_ctrlupd_interval_min_x1024 = 0x10
+// .. .. dfi_t_ctrlupd_interval_max_x1024 = 0x16
+EMIT_MASKWRITE(0XF800606C, 0x0000FFFFU ,0x00001610U),
+// .. .. reg_ddrc_dfi_t_ctrl_delay = 0x1
+// .. .. reg_ddrc_dfi_t_dram_clk_disable = 0x1
+// .. .. reg_ddrc_dfi_t_dram_clk_enable = 0x1
+// .. .. reg_ddrc_t_cksre = 0x6
+// .. .. reg_ddrc_t_cksrx = 0x6
+// .. .. reg_ddrc_t_ckesr = 0x4
+EMIT_MASKWRITE(0XF8006078, 0x03FFFFFFU ,0x00466111U),
+// .. .. reg_ddrc_t_ckpde = 0x2
+// .. .. reg_ddrc_t_ckpdx = 0x2
+// .. .. reg_ddrc_t_ckdpde = 0x2
+// .. .. reg_ddrc_t_ckdpdx = 0x2
+// .. .. reg_ddrc_t_ckcsx = 0x3
+EMIT_MASKWRITE(0XF800607C, 0x000FFFFFU ,0x00032222U),
+// .. .. reg_ddrc_dis_auto_zq = 0x0
+// .. .. reg_ddrc_ddr3 = 0x1
+// .. .. reg_ddrc_t_mod = 0x200
+// .. .. reg_ddrc_t_zq_long_nop = 0x200
+// .. .. reg_ddrc_t_zq_short_nop = 0x40
+EMIT_MASKWRITE(0XF80060A4, 0xFFFFFFFFU ,0x10200802U),
+// .. .. t_zq_short_interval_x1024 = 0xcb73
+// .. .. dram_rstn_x1024 = 0x69
+EMIT_MASKWRITE(0XF80060A8, 0x0FFFFFFFU ,0x0690CB73U),
+// .. .. deeppowerdown_en = 0x0
+// .. .. deeppowerdown_to_x1024 = 0xff
+EMIT_MASKWRITE(0XF80060AC, 0x000001FFU ,0x000001FEU),
+// .. .. dfi_wrlvl_max_x1024 = 0xfff
+// .. .. dfi_rdlvl_max_x1024 = 0xfff
+// .. .. ddrc_reg_twrlvl_max_error = 0x0
+// .. .. ddrc_reg_trdlvl_max_error = 0x0
+// .. .. reg_ddrc_dfi_wr_level_en = 0x1
+// .. .. reg_ddrc_dfi_rd_dqs_gate_level = 0x1
+// .. .. reg_ddrc_dfi_rd_data_eye_train = 0x1
+EMIT_MASKWRITE(0XF80060B0, 0x1FFFFFFFU ,0x1CFFFFFFU),
+// .. .. reg_ddrc_skip_ocd = 0x1
+EMIT_MASKWRITE(0XF80060B4, 0x00000200U ,0x00000200U),
+// .. .. reg_ddrc_dfi_t_rddata_en = 0x6
+// .. .. reg_ddrc_dfi_t_ctrlup_min = 0x3
+// .. .. reg_ddrc_dfi_t_ctrlup_max = 0x40
+EMIT_MASKWRITE(0XF80060B8, 0x01FFFFFFU ,0x00200066U),
+// .. .. Clear_Uncorrectable_DRAM_ECC_error = 0x0
+// .. .. Clear_Correctable_DRAM_ECC_error = 0x0
+EMIT_MASKWRITE(0XF80060C4, 0x00000003U ,0x00000000U),
+// .. .. CORR_ECC_LOG_VALID = 0x0
+// .. .. ECC_CORRECTED_BIT_NUM = 0x0
+EMIT_MASKWRITE(0XF80060C8, 0x000000FFU ,0x00000000U),
+// .. .. UNCORR_ECC_LOG_VALID = 0x0
+EMIT_MASKWRITE(0XF80060DC, 0x00000001U ,0x00000000U),
+// .. .. STAT_NUM_CORR_ERR = 0x0
+// .. .. STAT_NUM_UNCORR_ERR = 0x0
+EMIT_MASKWRITE(0XF80060F0, 0x0000FFFFU ,0x00000000U),
+// .. .. reg_ddrc_ecc_mode = 0x0
+// .. .. reg_ddrc_dis_scrub = 0x1
+EMIT_MASKWRITE(0XF80060F4, 0x0000000FU ,0x00000008U),
+// .. .. reg_phy_dif_on = 0x0
+// .. .. reg_phy_dif_off = 0x0
+EMIT_MASKWRITE(0XF8006114, 0x000000FFU ,0x00000000U),
+// .. .. reg_phy_data_slice_in_use = 0x1
+// .. .. reg_phy_rdlvl_inc_mode = 0x0
+// .. .. reg_phy_gatelvl_inc_mode = 0x0
+// .. .. reg_phy_wrlvl_inc_mode = 0x0
+// .. .. reg_phy_bist_shift_dq = 0x0
+// .. .. reg_phy_bist_err_clr = 0x0
+// .. .. reg_phy_dq_offset = 0x40
+EMIT_MASKWRITE(0XF8006118, 0x7FFFFFCFU ,0x40000001U),
+// .. .. reg_phy_data_slice_in_use = 0x1
+// .. .. reg_phy_rdlvl_inc_mode = 0x0
+// .. .. reg_phy_gatelvl_inc_mode = 0x0
+// .. .. reg_phy_wrlvl_inc_mode = 0x0
+// .. .. reg_phy_bist_shift_dq = 0x0
+// .. .. reg_phy_bist_err_clr = 0x0
+// .. .. reg_phy_dq_offset = 0x40
+EMIT_MASKWRITE(0XF800611C, 0x7FFFFFCFU ,0x40000001U),
+// .. .. reg_phy_data_slice_in_use = 0x1
+// .. .. reg_phy_rdlvl_inc_mode = 0x0
+// .. .. reg_phy_gatelvl_inc_mode = 0x0
+// .. .. reg_phy_wrlvl_inc_mode = 0x0
+// .. .. reg_phy_bist_shift_dq = 0x0
+// .. .. reg_phy_bist_err_clr = 0x0
+// .. .. reg_phy_dq_offset = 0x40
+EMIT_MASKWRITE(0XF8006120, 0x7FFFFFCFU ,0x40000001U),
+// .. .. reg_phy_data_slice_in_use = 0x1
+// .. .. reg_phy_rdlvl_inc_mode = 0x0
+// .. .. reg_phy_gatelvl_inc_mode = 0x0
+// .. .. reg_phy_wrlvl_inc_mode = 0x0
+// .. .. reg_phy_bist_shift_dq = 0x0
+// .. .. reg_phy_bist_err_clr = 0x0
+// .. .. reg_phy_dq_offset = 0x40
+EMIT_MASKWRITE(0XF8006124, 0x7FFFFFCFU ,0x40000001U),
+// .. .. reg_phy_wrlvl_init_ratio = 0x0
+// .. .. reg_phy_gatelvl_init_ratio = 0xa4
+EMIT_MASKWRITE(0XF800612C, 0x000FFFFFU ,0x00029000U),
+// .. .. reg_phy_wrlvl_init_ratio = 0x0
+// .. .. reg_phy_gatelvl_init_ratio = 0xa4
+EMIT_MASKWRITE(0XF8006130, 0x000FFFFFU ,0x00029000U),
+// .. .. reg_phy_wrlvl_init_ratio = 0x0
+// .. .. reg_phy_gatelvl_init_ratio = 0xa4
+EMIT_MASKWRITE(0XF8006134, 0x000FFFFFU ,0x00029000U),
+// .. .. reg_phy_wrlvl_init_ratio = 0x0
+// .. .. reg_phy_gatelvl_init_ratio = 0xa4
+EMIT_MASKWRITE(0XF8006138, 0x000FFFFFU ,0x00029000U),
+// .. .. reg_phy_rd_dqs_slave_ratio = 0x35
+// .. .. reg_phy_rd_dqs_slave_force = 0x0
+// .. .. reg_phy_rd_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006140, 0x000FFFFFU ,0x00000035U),
+// .. .. reg_phy_rd_dqs_slave_ratio = 0x35
+// .. .. reg_phy_rd_dqs_slave_force = 0x0
+// .. .. reg_phy_rd_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006144, 0x000FFFFFU ,0x00000035U),
+// .. .. reg_phy_rd_dqs_slave_ratio = 0x35
+// .. .. reg_phy_rd_dqs_slave_force = 0x0
+// .. .. reg_phy_rd_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006148, 0x000FFFFFU ,0x00000035U),
+// .. .. reg_phy_rd_dqs_slave_ratio = 0x35
+// .. .. reg_phy_rd_dqs_slave_force = 0x0
+// .. .. reg_phy_rd_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF800614C, 0x000FFFFFU ,0x00000035U),
+// .. .. reg_phy_wr_dqs_slave_ratio = 0x80
+// .. .. reg_phy_wr_dqs_slave_force = 0x0
+// .. .. reg_phy_wr_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006154, 0x000FFFFFU ,0x00000080U),
+// .. .. reg_phy_wr_dqs_slave_ratio = 0x80
+// .. .. reg_phy_wr_dqs_slave_force = 0x0
+// .. .. reg_phy_wr_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006158, 0x000FFFFFU ,0x00000080U),
+// .. .. reg_phy_wr_dqs_slave_ratio = 0x80
+// .. .. reg_phy_wr_dqs_slave_force = 0x0
+// .. .. reg_phy_wr_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF800615C, 0x000FFFFFU ,0x00000080U),
+// .. .. reg_phy_wr_dqs_slave_ratio = 0x80
+// .. .. reg_phy_wr_dqs_slave_force = 0x0
+// .. .. reg_phy_wr_dqs_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006160, 0x000FFFFFU ,0x00000080U),
+// .. .. reg_phy_fifo_we_slave_ratio = 0xf9
+// .. .. reg_phy_fifo_we_in_force = 0x0
+// .. .. reg_phy_fifo_we_in_delay = 0x0
+EMIT_MASKWRITE(0XF8006168, 0x001FFFFFU ,0x000000F9U),
+// .. .. reg_phy_fifo_we_slave_ratio = 0xf9
+// .. .. reg_phy_fifo_we_in_force = 0x0
+// .. .. reg_phy_fifo_we_in_delay = 0x0
+EMIT_MASKWRITE(0XF800616C, 0x001FFFFFU ,0x000000F9U),
+// .. .. reg_phy_fifo_we_slave_ratio = 0xf9
+// .. .. reg_phy_fifo_we_in_force = 0x0
+// .. .. reg_phy_fifo_we_in_delay = 0x0
+EMIT_MASKWRITE(0XF8006170, 0x001FFFFFU ,0x000000F9U),
+// .. .. reg_phy_fifo_we_slave_ratio = 0xf9
+// .. .. reg_phy_fifo_we_in_force = 0x0
+// .. .. reg_phy_fifo_we_in_delay = 0x0
+EMIT_MASKWRITE(0XF8006174, 0x001FFFFFU ,0x000000F9U),
+// .. .. reg_phy_wr_data_slave_ratio = 0xc0
+// .. .. reg_phy_wr_data_slave_force = 0x0
+// .. .. reg_phy_wr_data_slave_delay = 0x0
+EMIT_MASKWRITE(0XF800617C, 0x000FFFFFU ,0x000000C0U),
+// .. .. reg_phy_wr_data_slave_ratio = 0xc0
+// .. .. reg_phy_wr_data_slave_force = 0x0
+// .. .. reg_phy_wr_data_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006180, 0x000FFFFFU ,0x000000C0U),
+// .. .. reg_phy_wr_data_slave_ratio = 0xc0
+// .. .. reg_phy_wr_data_slave_force = 0x0
+// .. .. reg_phy_wr_data_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006184, 0x000FFFFFU ,0x000000C0U),
+// .. .. reg_phy_wr_data_slave_ratio = 0xc0
+// .. .. reg_phy_wr_data_slave_force = 0x0
+// .. .. reg_phy_wr_data_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006188, 0x000FFFFFU ,0x000000C0U),
+// .. .. reg_phy_bl2 = 0x0
+// .. .. reg_phy_at_spd_atpg = 0x0
+// .. .. reg_phy_bist_enable = 0x0
+// .. .. reg_phy_bist_force_err = 0x0
+// .. .. reg_phy_bist_mode = 0x0
+// .. .. reg_phy_invert_clkout = 0x1
+// .. .. reg_phy_sel_logic = 0x0
+// .. .. reg_phy_ctrl_slave_ratio = 0x100
+// .. .. reg_phy_ctrl_slave_force = 0x0
+// .. .. reg_phy_ctrl_slave_delay = 0x0
+// .. .. reg_phy_lpddr = 0x0
+// .. .. reg_phy_cmd_latency = 0x0
+EMIT_MASKWRITE(0XF8006190, 0x6FFFFEFEU ,0x00040080U),
+// .. .. reg_phy_wr_rl_delay = 0x2
+// .. .. reg_phy_rd_rl_delay = 0x4
+// .. .. reg_phy_dll_lock_diff = 0xf
+// .. .. reg_phy_use_wr_level = 0x1
+// .. .. reg_phy_use_rd_dqs_gate_level = 0x1
+// .. .. reg_phy_use_rd_data_eye_level = 0x1
+// .. .. reg_phy_dis_calib_rst = 0x0
+// .. .. reg_phy_ctrl_slave_delay = 0x0
+EMIT_MASKWRITE(0XF8006194, 0x000FFFFFU ,0x0001FC82U),
+// .. .. reg_arb_page_addr_mask = 0x0
+EMIT_MASKWRITE(0XF8006204, 0xFFFFFFFFU ,0x00000000U),
+// .. .. reg_arb_pri_wr_portn = 0x3ff
+// .. .. reg_arb_disable_aging_wr_portn = 0x0
+// .. .. reg_arb_disable_urgent_wr_portn = 0x0
+// .. .. reg_arb_dis_page_match_wr_portn = 0x0
+EMIT_MASKWRITE(0XF8006208, 0x000703FFU ,0x000003FFU),
+// .. .. reg_arb_pri_wr_portn = 0x3ff
+// .. .. reg_arb_disable_aging_wr_portn = 0x0
+// .. .. reg_arb_disable_urgent_wr_portn = 0x0
+// .. .. reg_arb_dis_page_match_wr_portn = 0x0
+EMIT_MASKWRITE(0XF800620C, 0x000703FFU ,0x000003FFU),
+// .. .. reg_arb_pri_wr_portn = 0x3ff
+// .. .. reg_arb_disable_aging_wr_portn = 0x0
+// .. .. reg_arb_disable_urgent_wr_portn = 0x0
+// .. .. reg_arb_dis_page_match_wr_portn = 0x0
+EMIT_MASKWRITE(0XF8006210, 0x000703FFU ,0x000003FFU),
+// .. .. reg_arb_pri_wr_portn = 0x3ff
+// .. .. reg_arb_disable_aging_wr_portn = 0x0
+// .. .. reg_arb_disable_urgent_wr_portn = 0x0
+// .. .. reg_arb_dis_page_match_wr_portn = 0x0
+EMIT_MASKWRITE(0XF8006214, 0x000703FFU ,0x000003FFU),
+// .. .. reg_arb_pri_rd_portn = 0x3ff
+// .. .. reg_arb_disable_aging_rd_portn = 0x0
+// .. .. reg_arb_disable_urgent_rd_portn = 0x0
+// .. .. reg_arb_dis_page_match_rd_portn = 0x0
+// .. .. reg_arb_set_hpr_rd_portn = 0x0
+EMIT_MASKWRITE(0XF8006218, 0x000F03FFU ,0x000003FFU),
+// .. .. reg_arb_pri_rd_portn = 0x3ff
+// .. .. reg_arb_disable_aging_rd_portn = 0x0
+// .. .. reg_arb_disable_urgent_rd_portn = 0x0
+// .. .. reg_arb_dis_page_match_rd_portn = 0x0
+// .. .. reg_arb_set_hpr_rd_portn = 0x0
+EMIT_MASKWRITE(0XF800621C, 0x000F03FFU ,0x000003FFU),
+// .. .. reg_arb_pri_rd_portn = 0x3ff
+// .. .. reg_arb_disable_aging_rd_portn = 0x0
+// .. .. reg_arb_disable_urgent_rd_portn = 0x0
+// .. .. reg_arb_dis_page_match_rd_portn = 0x0
+// .. .. reg_arb_set_hpr_rd_portn = 0x0
+EMIT_MASKWRITE(0XF8006220, 0x000F03FFU ,0x000003FFU),
+// .. .. reg_arb_pri_rd_portn = 0x3ff
+// .. .. reg_arb_disable_aging_rd_portn = 0x0
+// .. .. reg_arb_disable_urgent_rd_portn = 0x0
+// .. .. reg_arb_dis_page_match_rd_portn = 0x0
+// .. .. reg_arb_set_hpr_rd_portn = 0x0
+EMIT_MASKWRITE(0XF8006224, 0x000F03FFU ,0x000003FFU),
+// .. .. reg_ddrc_lpddr2 = 0x0
+// .. .. reg_ddrc_derate_enable = 0x0
+// .. .. reg_ddrc_mr4_margin = 0x0
+EMIT_MASKWRITE(0XF80062A8, 0x00000FF5U ,0x00000000U),
+// .. .. reg_ddrc_mr4_read_interval = 0x0
+EMIT_MASKWRITE(0XF80062AC, 0xFFFFFFFFU ,0x00000000U),
+// .. .. reg_ddrc_min_stable_clock_x1 = 0x5
+// .. .. reg_ddrc_idle_after_reset_x32 = 0x12
+// .. .. reg_ddrc_t_mrw = 0x5
+EMIT_MASKWRITE(0XF80062B0, 0x003FFFFFU ,0x00005125U),
+// .. .. reg_ddrc_max_auto_init_x1024 = 0xa8
+// .. .. reg_ddrc_dev_zqinit_x32 = 0x12
+EMIT_MASKWRITE(0XF80062B4, 0x0003FFFFU ,0x000012A8U),
+// .. .. DONE = 1
+EMIT_MASKPOLL(0XF8000B74, 0x00002000U),
+// .. .. reg_ddrc_soft_rstb = 0x1
+// .. .. reg_ddrc_powerdown_en = 0x0
+// .. .. reg_ddrc_data_bus_width = 0x0
+// .. .. reg_ddrc_burst8_refresh = 0x0
+// .. .. reg_ddrc_rdwr_idle_gap = 1
+// .. .. reg_ddrc_dis_rd_bypass = 0x0
+// .. .. reg_ddrc_dis_act_bypass = 0x0
+// .. .. reg_ddrc_dis_auto_refresh = 0x0
+EMIT_MASKWRITE(0XF8006000, 0x0001FFFFU ,0x00000081U),
+// .. .. ddrc_reg_operating_mode = 1
+EMIT_MASKPOLL(0XF8006054, 0x00000007U),
+EMIT_EXIT(),

@@ -1,0 +1,430 @@
+{
+  "Board Analysis/Boot_Modified_RK7020/BOOT.bin": {
+    "size": 3658668,
+    "sha256": "1ec41e19e99cf829cce88d4cbcb826a0e15bd8256619c7e9e2bd138fe493a6a5",
+    "header": {
+      "0x20": "0xaa995566",
+      "0x24": "0x584c4e58",
+      "0x28": "0x0",
+      "0x2c": "0x1010000",
+      "0x30": "0x1700",
+      "0x34": "0x18008",
+      "0x38": "0x0",
+      "0x3c": "0x0",
+      "0x40": "0x18008",
+      "0x44": "0x1",
+      "0x48": "0xfc164530",
+      "0x4c": "0x0"
+    },
+    "fsbl_sha256": "082544a4b83932ae87fa28457e289e7121cfd25062e426fed072bea8d0c357e2",
+    "tables": [
+      {
+        "offset": "0x100e0",
+        "ops": 4
+      },
+      {
+        "offset": "0x1011c",
+        "ops": 4
+      },
+      {
+        "offset": "0x10158",
+        "ops": 4
+      },
+      {
+        "offset": "0x10194",
+        "ops": 3
+      },
+      {
+        "offset": "0x101bc",
+        "ops": 3
+      },
+      {
+        "offset": "0x101e4",
+        "ops": 3
+      },
+      {
+        "offset": "0x1020c",
+        "ops": 25
+      },
+      {
+        "offset": "0x1038c",
+        "ops": 16
+      },
+      {
+        "offset": "0x10488",
+        "ops": 81
+      },
+      {
+        "offset": "0x10994",
+        "ops": 18
+      },
+      {
+        "offset": "0x10aac",
+        "ops": 73
+      },
+      {
+        "offset": "0x10f38",
+        "ops": 25
+      },
+      {
+        "offset": "0x110b8",
+        "ops": 16
+      },
+      {
+        "offset": "0x111b4",
+        "ops": 83
+      },
+      {
+        "offset": "0x116e0",
+        "ops": 18
+      },
+      {
+        "offset": "0x117f8",
+        "ops": 73
+      },
+      {
+        "offset": "0x11c84",
+        "ops": 25
+      },
+      {
+        "offset": "0x11e04",
+        "ops": 16
+      },
+      {
+        "offset": "0x11f00",
+        "ops": 82
+      },
+      {
+        "offset": "0x1241c",
+        "ops": 18
+      },
+      {
+        "offset": "0x12534",
+        "ops": 73
+      }
+    ]
+  },
+  "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": {
+    "size": 1822184,
+    "sha256": "c1412c79a29220be1e96832c8269d92099ffea19372b7c74c6c53cda060a9d46",
+    "header": {
+      "0x20": "0xaa995566",
+      "0x24": "0x584c4e58",
+      "0x28": "0x0",
+      "0x2c": "0x1010000",
+      "0x30": "0x1700",
+      "0x34": "0x176f4",
+      "0x38": "0x0",
+      "0x3c": "0x0",
+      "0x40": "0x176f4",
+      "0x44": "0x1",
+      "0x48": "0xfc165758",
+      "0x4c": "0x0"
+    },
+    "fsbl_sha256": "6c6a0a3124108e4cbf2a3170bf8918e79cd19e329971692fd8c745f416035b3e",
+    "tables": [
+      {
+        "offset": "0xb294",
+        "ops": 25
+      },
+      {
+        "offset": "0xb414",
+        "ops": 14
+      },
+      {
+        "offset": "0xb4f0",
+        "ops": 82
+      },
+      {
+        "offset": "0xba0c",
+        "ops": 73
+      },
+      {
+        "offset": "0xbe98",
+        "ops": 30
+      },
+      {
+        "offset": "0xc068",
+        "ops": 4
+      },
+      {
+        "offset": "0xc0a4",
+        "ops": 3
+      },
+      {
+        "offset": "0xc0cc",
+        "ops": 25
+      },
+      {
+        "offset": "0xc24c",
+        "ops": 14
+      },
+      {
+        "offset": "0xc328",
+        "ops": 83
+      },
+      {
+        "offset": "0xc854",
+        "ops": 73
+      },
+      {
+        "offset": "0xcce0",
+        "ops": 30
+      },
+      {
+        "offset": "0xceb0",
+        "ops": 4
+      },
+      {
+        "offset": "0xceec",
+        "ops": 3
+      },
+      {
+        "offset": "0xcf14",
+        "ops": 25
+      },
+      {
+        "offset": "0xd094",
+        "ops": 14
+      },
+      {
+        "offset": "0xd170",
+        "ops": 81
+      },
+      {
+        "offset": "0xd67c",
+        "ops": 73
+      },
+      {
+        "offset": "0xdb08",
+        "ops": 30
+      },
+      {
+        "offset": "0xdcd8",
+        "ops": 4
+      },
+      {
+        "offset": "0xdd14",
+        "ops": 3
+      }
+    ]
+  },
+  "Board Analysis/Filesystem/boot/BOOT.bin": {
+    "size": 3658668,
+    "sha256": "1ec41e19e99cf829cce88d4cbcb826a0e15bd8256619c7e9e2bd138fe493a6a5",
+    "header": {
+      "0x20": "0xaa995566",
+      "0x24": "0x584c4e58",
+      "0x28": "0x0",
+      "0x2c": "0x1010000",
+      "0x30": "0x1700",
+      "0x34": "0x18008",
+      "0x38": "0x0",
+      "0x3c": "0x0",
+      "0x40": "0x18008",
+      "0x44": "0x1",
+      "0x48": "0xfc164530",
+      "0x4c": "0x0"
+    },
+    "fsbl_sha256": "082544a4b83932ae87fa28457e289e7121cfd25062e426fed072bea8d0c357e2",
+    "tables": [
+      {
+        "offset": "0x100e0",
+        "ops": 4
+      },
+      {
+        "offset": "0x1011c",
+        "ops": 4
+      },
+      {
+        "offset": "0x10158",
+        "ops": 4
+      },
+      {
+        "offset": "0x10194",
+        "ops": 3
+      },
+      {
+        "offset": "0x101bc",
+        "ops": 3
+      },
+      {
+        "offset": "0x101e4",
+        "ops": 3
+      },
+      {
+        "offset": "0x1020c",
+        "ops": 25
+      },
+      {
+        "offset": "0x1038c",
+        "ops": 16
+      },
+      {
+        "offset": "0x10488",
+        "ops": 81
+      },
+      {
+        "offset": "0x10994",
+        "ops": 18
+      },
+      {
+        "offset": "0x10aac",
+        "ops": 73
+      },
+      {
+        "offset": "0x10f38",
+        "ops": 25
+      },
+      {
+        "offset": "0x110b8",
+        "ops": 16
+      },
+      {
+        "offset": "0x111b4",
+        "ops": 83
+      },
+      {
+        "offset": "0x116e0",
+        "ops": 18
+      },
+      {
+        "offset": "0x117f8",
+        "ops": 73
+      },
+      {
+        "offset": "0x11c84",
+        "ops": 25
+      },
+      {
+        "offset": "0x11e04",
+        "ops": 16
+      },
+      {
+        "offset": "0x11f00",
+        "ops": 82
+      },
+      {
+        "offset": "0x1241c",
+        "ops": 18
+      },
+      {
+        "offset": "0x12534",
+        "ops": 73
+      }
+    ]
+  },
+  "Board Analysis/Filesystem/boot/system.dtb": {
+    "size": 29292,
+    "sha256": "7b2c238bbdacb6bcd5789789c9f1c439f9bb1c0b81c86945f32d8b4cfe05971f"
+  },
+  "Board Analysis/Filesystem/opt/image/BOOT.BIN": {
+    "size": 3629300,
+    "sha256": "f4399ffe4853a67d9404a07eb01b5cdf2ff478cb0d431124a25fcd47024dd99b",
+    "header": {
+      "0x20": "0xaa995566",
+      "0x24": "0x584c4e58",
+      "0x28": "0x0",
+      "0x2c": "0x1010000",
+      "0x30": "0x1700",
+      "0x34": "0x18008",
+      "0x38": "0x0",
+      "0x3c": "0x0",
+      "0x40": "0x18008",
+      "0x44": "0x1",
+      "0x48": "0xfc164530",
+      "0x4c": "0x0"
+    },
+    "fsbl_sha256": "082544a4b83932ae87fa28457e289e7121cfd25062e426fed072bea8d0c357e2",
+    "tables": [
+      {
+        "offset": "0x100e0",
+        "ops": 4
+      },
+      {
+        "offset": "0x1011c",
+        "ops": 4
+      },
+      {
+        "offset": "0x10158",
+        "ops": 4
+      },
+      {
+        "offset": "0x10194",
+        "ops": 3
+      },
+      {
+        "offset": "0x101bc",
+        "ops": 3
+      },
+      {
+        "offset": "0x101e4",
+        "ops": 3
+      },
+      {
+        "offset": "0x1020c",
+        "ops": 25
+      },
+      {
+        "offset": "0x1038c",
+        "ops": 16
+      },
+      {
+        "offset": "0x10488",
+        "ops": 81
+      },
+      {
+        "offset": "0x10994",
+        "ops": 18
+      },
+      {
+        "offset": "0x10aac",
+        "ops": 73
+      },
+      {
+        "offset": "0x10f38",
+        "ops": 25
+      },
+      {
+        "offset": "0x110b8",
+        "ops": 16
+      },
+      {
+        "offset": "0x111b4",
+        "ops": 83
+      },
+      {
+        "offset": "0x116e0",
+        "ops": 18
+      },
+      {
+        "offset": "0x117f8",
+        "ops": 73
+      },
+      {
+        "offset": "0x11c84",
+        "ops": 25
+      },
+      {
+        "offset": "0x11e04",
+        "ops": 16
+      },
+      {
+        "offset": "0x11f00",
+        "ops": 82
+      },
+      {
+        "offset": "0x1241c",
+        "ops": 18
+      },
+      {
+        "offset": "0x12534",
+        "ops": 73
+      }
+    ]
+  },
+  "Board Analysis/Filesystem/boot/devicetree/system-top.dtb": {
+    "size": 29292,
+    "sha256": "7b2c238bbdacb6bcd5789789c9f1c439f9bb1c0b81c86945f32d8b4cfe05971f"
+  }
+}

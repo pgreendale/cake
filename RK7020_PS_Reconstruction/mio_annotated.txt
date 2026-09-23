@@ -1,0 +1,679 @@
+// .. UNLOCK_KEY = 0XDF0D
+EMIT_WRITE(0XF8000008, 0x0000DF0DU),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x0
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x0
+// .. DCI_TYPE = 0x0
+// .. IBUF_DISABLE_MODE = 0x0
+// .. TERM_DISABLE_MODE = 0x0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B40, 0x00000FFFU ,0x00000600U),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x0
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x0
+// .. DCI_TYPE = 0x0
+// .. IBUF_DISABLE_MODE = 0x0
+// .. TERM_DISABLE_MODE = 0x0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B44, 0x00000FFFU ,0x00000600U),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x1
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x1
+// .. DCI_TYPE = 0x3
+// .. IBUF_DISABLE_MODE = 0
+// .. TERM_DISABLE_MODE = 0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B48, 0x00000FFFU ,0x00000672U),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x1
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x1
+// .. DCI_TYPE = 0x3
+// .. IBUF_DISABLE_MODE = 0
+// .. TERM_DISABLE_MODE = 0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B4C, 0x00000FFFU ,0x00000672U),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x2
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x1
+// .. DCI_TYPE = 0x3
+// .. IBUF_DISABLE_MODE = 0
+// .. TERM_DISABLE_MODE = 0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B50, 0x00000FFFU ,0x00000674U),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x2
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x1
+// .. DCI_TYPE = 0x3
+// .. IBUF_DISABLE_MODE = 0
+// .. TERM_DISABLE_MODE = 0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B54, 0x00000FFFU ,0x00000674U),
+// .. reserved_INP_POWER = 0x0
+// .. INP_TYPE = 0x0
+// .. DCI_UPDATE_B = 0x0
+// .. TERM_EN = 0x0
+// .. DCI_TYPE = 0x0
+// .. IBUF_DISABLE_MODE = 0x0
+// .. TERM_DISABLE_MODE = 0x0
+// .. OUTPUT_EN = 0x3
+// .. PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B58, 0x00000FFFU ,0x00000600U),
+// .. reserved_DRIVE_P = 0x1c
+// .. reserved_DRIVE_N = 0xc
+// .. reserved_SLEW_P = 0x3
+// .. reserved_SLEW_N = 0x3
+// .. reserved_GTL = 0x0
+// .. reserved_RTERM = 0x0
+EMIT_MASKWRITE(0XF8000B5C, 0xFFFFFFFFU ,0x0018C61CU),
+// .. reserved_DRIVE_P = 0x1c
+// .. reserved_DRIVE_N = 0xc
+// .. reserved_SLEW_P = 0x6
+// .. reserved_SLEW_N = 0x1f
+// .. reserved_GTL = 0x0
+// .. reserved_RTERM = 0x0
+EMIT_MASKWRITE(0XF8000B60, 0xFFFFFFFFU ,0x00F9861CU),
+// .. reserved_DRIVE_P = 0x1c
+// .. reserved_DRIVE_N = 0xc
+// .. reserved_SLEW_P = 0x6
+// .. reserved_SLEW_N = 0x1f
+// .. reserved_GTL = 0x0
+// .. reserved_RTERM = 0x0
+EMIT_MASKWRITE(0XF8000B64, 0xFFFFFFFFU ,0x00F9861CU),
+// .. reserved_DRIVE_P = 0x1c
+// .. reserved_DRIVE_N = 0xc
+// .. reserved_SLEW_P = 0x6
+// .. reserved_SLEW_N = 0x1f
+// .. reserved_GTL = 0x0
+// .. reserved_RTERM = 0x0
+EMIT_MASKWRITE(0XF8000B68, 0xFFFFFFFFU ,0x00F9861CU),
+// .. VREF_INT_EN = 0x0
+// .. VREF_SEL = 0x0
+// .. VREF_EXT_EN = 0x3
+// .. reserved_VREF_PULLUP_EN = 0x0
+// .. REFIO_EN = 0x1
+// .. reserved_REFIO_TEST = 0x0
+// .. reserved_REFIO_PULLUP_EN = 0x0
+// .. reserved_DRST_B_PULLUP_EN = 0x0
+// .. reserved_CKE_PULLUP_EN = 0x0
+EMIT_MASKWRITE(0XF8000B6C, 0x00007FFFU ,0x00000260U),
+// .. .. RESET = 1
+EMIT_MASKWRITE(0XF8000B70, 0x00000001U ,0x00000001U),
+// .. .. RESET = 0
+// .. .. reserved_VRN_OUT = 0x1
+EMIT_MASKWRITE(0XF8000B70, 0x00000021U ,0x00000020U),
+// .. .. RESET = 0x1
+// .. .. ENABLE = 0x1
+// .. .. reserved_VRP_TRI = 0x0
+// .. .. reserved_VRN_TRI = 0x0
+// .. .. reserved_VRP_OUT = 0x0
+// .. .. reserved_VRN_OUT = 0x1
+// .. .. NREF_OPT1 = 0x0
+// .. .. NREF_OPT2 = 0x0
+// .. .. NREF_OPT4 = 0x1
+// .. .. PREF_OPT1 = 0x0
+// .. .. PREF_OPT2 = 0x0
+// .. .. UPDATE_CONTROL = 0x0
+// .. .. reserved_INIT_COMPLETE = 0x0
+// .. .. reserved_TST_CLK = 0x0
+// .. .. reserved_TST_HLN = 0x0
+// .. .. reserved_TST_HLP = 0x0
+// .. .. reserved_TST_RST = 0x0
+// .. .. reserved_INT_DCI_EN = 0x0
+EMIT_MASKWRITE(0XF8000B70, 0x07FEFFFFU ,0x00000823U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000700, 0x00003FFFU ,0x00001600U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000704, 0x00003FFFU ,0x00001602U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000708, 0x00003FFFU ,0x00000602U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800070C, 0x00003FFFU ,0x00000602U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000710, 0x00003FFFU ,0x00000602U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000714, 0x00003FFFU ,0x00000602U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000718, 0x00003FFFU ,0x00000602U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800071C, 0x00003FFFU ,0x00000600U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 0
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000720, 0x00003FFFU ,0x00000600U),
+// .. TRI_ENABLE = 1
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000724, 0x00003F01U ,0x00001601U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 7
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000728, 0x00003FFFU ,0x000016E1U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 7
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800072C, 0x00003FFFU ,0x000016E0U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000730, 0x00003FFFU ,0x00001600U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000734, 0x00003FFFU ,0x00001600U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 2
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000738, 0x00003FFFU ,0x00001640U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 2
+// .. Speed = 0
+// .. IO_Type = 3
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800073C, 0x00003FFFU ,0x00001640U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000740, 0x00003FFFU ,0x00001202U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000744, 0x00003FFFU ,0x00001202U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000748, 0x00003FFFU ,0x00001202U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800074C, 0x00003FFFU ,0x00001202U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000750, 0x00003FFFU ,0x00001202U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000754, 0x00003FFFU ,0x00001202U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000758, 0x00003FFFU ,0x00001203U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800075C, 0x00003FFFU ,0x00001203U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000760, 0x00003FFFU ,0x00001203U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000764, 0x00003FFFU ,0x00001203U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000768, 0x00003FFFU ,0x00001203U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 1
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800076C, 0x00003FFFU ,0x00001203U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000770, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000774, 0x00003FFFU ,0x00001205U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000778, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800077C, 0x00003FFFU ,0x00001205U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000780, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000784, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000788, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800078C, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 1
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000790, 0x00003FFFU ,0x00001205U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000794, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF8000798, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 1
+// .. L2_SEL = 0
+// .. L3_SEL = 0
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF800079C, 0x00003FFFU ,0x00001204U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007A0, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007A4, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007A8, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007AC, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007B0, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007B4, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007B8, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007BC, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007C0, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007C4, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007C8, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007CC, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007D0, 0x00003FFFU ,0x00001280U),
+// .. TRI_ENABLE = 0
+// .. L0_SEL = 0
+// .. L1_SEL = 0
+// .. L2_SEL = 0
+// .. L3_SEL = 4
+// .. Speed = 0
+// .. IO_Type = 1
+// .. PULLUP = 1
+// .. DisableRcvr = 0
+EMIT_MASKWRITE(0XF80007D4, 0x00003FFFU ,0x00001280U),
+// .. SDIO0_WP_SEL = 55
+// .. SDIO0_CD_SEL = 9
+EMIT_MASKWRITE(0XF8000830, 0x003F003FU ,0x00090037U),
+// .. SDIO1_WP_SEL = 57
+// .. SDIO1_CD_SEL = 58
+EMIT_MASKWRITE(0XF8000834, 0x003F003FU ,0x003A0039U),
+// .. LOCK_KEY = 0X767B
+EMIT_WRITE(0XF8000004, 0x0000767BU),
+EMIT_EXIT(),

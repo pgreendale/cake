@@ -1,0 +1,44 @@
+{
+  "source": "Board Analysis\\Boot_Modified_RK7020\\BOOT.bin",
+  "boot_offset": "0x19740",
+  "length_bytes": 2489280,
+  "payload_sha256": "dc660e59fe48d7a0d96f5a356660ddebc00f5cf51d99fbe82867da17d51b3fc1",
+  "big_endian_sha256": "e93bd23587d4f1ed7d5bec22d21ebfeabdb2eebf7112108ce328522f1d3adae1",
+  "sync_payload_offset": "0x30",
+  "idcode_writes": [
+    [
+      "0x3727093"
+    ]
+  ],
+  "register_packet_counts": {
+    "0x11": 1,
+    "0x10": 1,
+    "0x4": 171,
+    "0x13": 1,
+    "0x9": 1,
+    "0xe": 1,
+    "0xc": 1,
+    "0x6": 4,
+    "0x5": 2,
+    "0x18": 2,
+    "0x1": 4589,
+    "0x2": 182,
+    "0xa": 4484,
+    "0x0": 2
+  },
+  "command_counts": {
+    "0x0": 1,
+    "0x7": 1,
+    "0x9": 1,
+    "0x1": 134,
+    "0x2": 30,
+    "0xa": 1,
+    "0x3": 1,
+    "0x5": 1,
+    "0xd": 1
+  },
+  "multi_frame_write_compression": true,
+  "decoded_to_end": true,
+  "emio_package_pins_recovered": false,
+  "notes": "BE file is raw configuration data, not a .bit file with a Xilinx metadata wrapper. No configuration CRC validation or route reconstruction performed."
+}

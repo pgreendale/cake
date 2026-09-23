@@ -1,0 +1,3120 @@
+{
+  "/": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "compatible": [
+      "xlnx,zynq-7000"
+    ]
+  },
+  "/cpus": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ]
+  },
+  "/cpus/cpu@0": {
+    "compatible": [
+      "arm,cortex-a9"
+    ],
+    "device_type": [
+      "cpu"
+    ],
+    "reg": [
+      0
+    ],
+    "clocks": [
+      1,
+      3
+    ],
+    "clock-latency": [
+      1000
+    ],
+    "cpu0-supply": [
+      2
+    ],
+    "operating-points": [
+      766666,
+      1000000,
+      383333,
+      1000000
+    ],
+    "phandle": [
+      16
+    ]
+  },
+  "/cpus/cpu@1": {
+    "compatible": [
+      "arm,cortex-a9"
+    ],
+    "device_type": [
+      "cpu"
+    ],
+    "reg": [
+      1
+    ],
+    "clocks": [
+      1,
+      3
+    ],
+    "phandle": [
+      18
+    ]
+  },
+  "/fpga-full": {
+    "compatible": [
+      "fpga-region"
+    ],
+    "fpga-mgr": [
+      3
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "ranges": [],
+    "phandle": [
+      32
+    ]
+  },
+  "/pmu@f8891000": {
+    "compatible": [
+      "arm,cortex-a9-pmu"
+    ],
+    "interrupts": [
+      0,
+      5,
+      4,
+      0,
+      6,
+      4
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "reg": [
+      4169732096,
+      4096,
+      4169740288,
+      4096
+    ]
+  },
+  "/fixedregulator": {
+    "compatible": [
+      "regulator-fixed"
+    ],
+    "regulator-name": [
+      "VCCPINT"
+    ],
+    "regulator-min-microvolt": [
+      1000000
+    ],
+    "regulator-max-microvolt": [
+      1000000
+    ],
+    "regulator-boot-on": [],
+    "regulator-always-on": [],
+    "phandle": [
+      2
+    ]
+  },
+  "/replicator": {
+    "compatible": [
+      "arm,coresight-static-replicator"
+    ],
+    "clocks": [
+      1,
+      27,
+      1,
+      46,
+      1,
+      47
+    ],
+    "clock-names": [
+      "apb_pclk",
+      "dbg_trc",
+      "dbg_apb"
+    ]
+  },
+  "/replicator/out-ports": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ]
+  },
+  "/replicator/out-ports/port@0": {
+    "reg": [
+      0
+    ]
+  },
+  "/replicator/out-ports/port@0/endpoint": {
+    "remote-endpoint": [
+      5
+    ],
+    "phandle": [
+      12
+    ]
+  },
+  "/replicator/out-ports/port@1": {
+    "reg": [
+      1
+    ]
+  },
+  "/replicator/out-ports/port@1/endpoint": {
+    "remote-endpoint": [
+      6
+    ],
+    "phandle": [
+      11
+    ]
+  },
+  "/replicator/in-ports": {},
+  "/replicator/in-ports/port": {},
+  "/replicator/in-ports/port/endpoint": {
+    "remote-endpoint": [
+      7
+    ],
+    "phandle": [
+      13
+    ]
+  },
+  "/axi": {
+    "u-boot,dm-pre-reloc": [],
+    "compatible": [
+      "simple-bus"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "ranges": [],
+    "phandle": [
+      33
+    ]
+  },
+  "/axi/adc@f8007100": {
+    "compatible": [
+      "xlnx,zynq-xadc-1.00.a"
+    ],
+    "reg": [
+      4160778496,
+      32
+    ],
+    "interrupts": [
+      0,
+      7,
+      4
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "clocks": [
+      1,
+      12
+    ],
+    "phandle": [
+      34
+    ]
+  },
+  "/axi/can@e0008000": {
+    "compatible": [
+      "xlnx,zynq-can-1.0"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clocks": [
+      1,
+      19,
+      1,
+      36
+    ],
+    "clock-names": [
+      "can_clk",
+      "pclk"
+    ],
+    "reg": [
+      3758129152,
+      4096
+    ],
+    "interrupts": [
+      0,
+      28,
+      4
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "tx-fifo-depth": [
+      64
+    ],
+    "rx-fifo-depth": [
+      64
+    ],
+    "phandle": [
+      35
+    ]
+  },
+  "/axi/can@e0009000": {
+    "compatible": [
+      "xlnx,zynq-can-1.0"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clocks": [
+      1,
+      20,
+      1,
+      37
+    ],
+    "clock-names": [
+      "can_clk",
+      "pclk"
+    ],
+    "reg": [
+      3758133248,
+      4096
+    ],
+    "interrupts": [
+      0,
+      51,
+      4
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "tx-fifo-depth": [
+      64
+    ],
+    "rx-fifo-depth": [
+      64
+    ],
+    "phandle": [
+      36
+    ]
+  },
+  "/axi/gpio@e000a000": {
+    "compatible": [
+      "xlnx,zynq-gpio-1.0"
+    ],
+    "#gpio-cells": [
+      2
+    ],
+    "clocks": [
+      1,
+      42
+    ],
+    "gpio-controller": [],
+    "interrupt-controller": [],
+    "#interrupt-cells": [
+      2
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      20,
+      4
+    ],
+    "reg": [
+      3758137344,
+      4096
+    ],
+    "emio-gpio-width": [
+      11
+    ],
+    "gpio-mask-high": [
+      0
+    ],
+    "gpio-mask-low": [
+      22016
+    ],
+    "phandle": [
+      8
+    ]
+  },
+  "/axi/i2c@e0004000": {
+    "compatible": [
+      "cdns,i2c-r1p10"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clocks": [
+      1,
+      38
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      25,
+      4
+    ],
+    "reg": [
+      3758112768,
+      4096
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "clock-frequency": [
+      100000
+    ],
+    "phandle": [
+      37
+    ]
+  },
+  "/axi/i2c@e0004000/cape_eeprom0@50": {
+    "compatible": [
+      "atmel,24c256"
+    ],
+    "reg": [
+      80
+    ],
+    "phandle": [
+      38
+    ]
+  },
+  "/axi/i2c@e0004000/rtc@51": {
+    "compatible": [
+      "nxp,pcf8563"
+    ],
+    "reg": [
+      81
+    ]
+  },
+  "/axi/i2c@e0005000": {
+    "compatible": [
+      "cdns,i2c-r1p10"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clocks": [
+      1,
+      39
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      48,
+      4
+    ],
+    "reg": [
+      3758116864,
+      4096
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "clock-frequency": [
+      100000
+    ],
+    "phandle": [
+      27
+    ]
+  },
+  "/axi/interrupt-controller@f8f01000": {
+    "compatible": [
+      "arm,cortex-a9-gic"
+    ],
+    "#interrupt-cells": [
+      3
+    ],
+    "interrupt-controller": [],
+    "reg": [
+      4176482304,
+      4096,
+      4176478464,
+      256
+    ],
+    "num_cpus": [
+      2
+    ],
+    "num_interrupts": [
+      96
+    ],
+    "phandle": [
+      4
+    ]
+  },
+  "/axi/cache-controller@f8f02000": {
+    "compatible": [
+      "arm,pl310-cache"
+    ],
+    "reg": [
+      4176486400,
+      4096
+    ],
+    "interrupts": [
+      0,
+      2,
+      4
+    ],
+    "arm,data-latency": [
+      3,
+      2,
+      2
+    ],
+    "arm,tag-latency": [
+      2,
+      2,
+      2
+    ],
+    "cache-unified": [],
+    "cache-level": [
+      2
+    ],
+    "phandle": [
+      39
+    ]
+  },
+  "/axi/memory-controller@f8006000": {
+    "compatible": [
+      "xlnx,zynq-ddrc-a05"
+    ],
+    "reg": [
+      4160774144,
+      4096
+    ],
+    "phandle": [
+      40
+    ]
+  },
+  "/axi/sram@fffc0000": {
+    "compatible": [
+      "mmio-sram"
+    ],
+    "reg": [
+      4294705152,
+      65536
+    ],
+    "phandle": [
+      41
+    ]
+  },
+  "/axi/serial@e0000000": {
+    "compatible": [
+      "xlnx,xuartps",
+      "cdns,uart-r1p8"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clocks": [
+      1,
+      23,
+      1,
+      40
+    ],
+    "clock-names": [
+      "uart_clk",
+      "pclk"
+    ],
+    "reg": [
+      3758096384,
+      4096
+    ],
+    "interrupts": [
+      0,
+      27,
+      4
+    ],
+    "cts-override": [],
+    "device_type": [
+      "serial"
+    ],
+    "port-number": [
+      0
+    ],
+    "phandle": [
+      42
+    ]
+  },
+  "/axi/serial@e0001000": {
+    "compatible": [
+      "xlnx,xuartps",
+      "cdns,uart-r1p8"
+    ],
+    "status": [
+      "disabled"
+    ],
+    "clocks": [
+      1,
+      24,
+      1,
+      41
+    ],
+    "clock-names": [
+      "uart_clk",
+      "pclk"
+    ],
+    "reg": [
+      3758100480,
+      4096
+    ],
+    "interrupts": [
+      0,
+      50,
+      4
+    ],
+    "phandle": [
+      43
+    ]
+  },
+  "/axi/spi@e0006000": {
+    "compatible": [
+      "xlnx,zynq-spi-r1p6"
+    ],
+    "reg": [
+      3758120960,
+      4096
+    ],
+    "status": [
+      "okay"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      26,
+      4
+    ],
+    "clocks": [
+      1,
+      25,
+      1,
+      34
+    ],
+    "clock-names": [
+      "ref_clk",
+      "pclk"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "is-decoded-cs": [
+      0
+    ],
+    "num-cs": [
+      3
+    ],
+    "phandle": [
+      44
+    ]
+  },
+  "/axi/spi@e0006000/st7789v@0": {
+    "status": [
+      "okay"
+    ],
+    "compatible": [
+      "sitronix,st7789v"
+    ],
+    "reg": [
+      0
+    ],
+    "spi-max-frequency": [
+      32000000
+    ],
+    "rotate": [
+      270
+    ],
+    "spi-cpol": [],
+    "spi-cpha": [],
+    "rgb": [],
+    "fps": [
+      30
+    ],
+    "buswidth": [
+      8
+    ],
+    "reset-gpios": [
+      8,
+      61,
+      1
+    ],
+    "dc-gpios": [
+      8,
+      59,
+      0
+    ],
+    "width": [
+      172
+    ],
+    "height": [
+      320
+    ],
+    "debug": [
+      0
+    ]
+  },
+  "/axi/spi@e0007000": {
+    "compatible": [
+      "xlnx,zynq-spi-r1p6"
+    ],
+    "reg": [
+      3758125056,
+      4096
+    ],
+    "status": [
+      "disabled"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      49,
+      4
+    ],
+    "clocks": [
+      1,
+      26,
+      1,
+      35
+    ],
+    "clock-names": [
+      "ref_clk",
+      "pclk"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "phandle": [
+      45
+    ]
+  },
+  "/axi/spi@e000d000": {
+    "compatible": [
+      "xlnx,zynq-qspi-1.0"
+    ],
+    "reg": [
+      3758149632,
+      4096
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      19,
+      4
+    ],
+    "clocks": [
+      1,
+      10,
+      1,
+      43
+    ],
+    "clock-names": [
+      "ref_clk",
+      "pclk"
+    ],
+    "status": [
+      "okay"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "is-dual": [
+      0
+    ],
+    "num-cs": [
+      1
+    ],
+    "spi-rx-bus-width": [
+      4
+    ],
+    "spi-tx-bus-width": [
+      4
+    ],
+    "phandle": [
+      46
+    ]
+  },
+  "/axi/spi@e000d000/flash@0": {
+    "compatible": [
+      "w25q256",
+      "jedec,spi-nor"
+    ],
+    "reg": [
+      0
+    ],
+    "spi-max-frequency": [
+      50000000
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "phandle": [
+      47
+    ]
+  },
+  "/axi/spi@e000d000/flash@0/partition@0": {
+    "label": [
+      "boot"
+    ],
+    "reg": [
+      0,
+      8388608
+    ]
+  },
+  "/axi/spi@e000d000/flash@0/partition@1": {
+    "label": [
+      "bootenv"
+    ],
+    "reg": [
+      8388608,
+      131072
+    ]
+  },
+  "/axi/spi@e000d000/flash@0/partition@2": {
+    "label": [
+      "kernel"
+    ],
+    "reg": [
+      8519680,
+      11010048
+    ]
+  },
+  "/axi/spi@e000d000/flash@0/partition@3": {
+    "label": [
+      "boot.scr"
+    ],
+    "reg": [
+      19529728,
+      262144
+    ]
+  },
+  "/axi/spi@e000d000/flash@0/partition@4": {
+    "label": [
+      "space"
+    ],
+    "reg": [
+      19791872,
+      0
+    ]
+  },
+  "/axi/ethernet@e000b000": {
+    "compatible": [
+      "xlnx,zynq-gem",
+      "cdns,gem"
+    ],
+    "reg": [
+      3758141440,
+      4096
+    ],
+    "status": [
+      "okay"
+    ],
+    "interrupts": [
+      0,
+      22,
+      4
+    ],
+    "clocks": [
+      1,
+      30,
+      1,
+      30,
+      1,
+      13
+    ],
+    "clock-names": [
+      "pclk",
+      "hclk",
+      "tx_clk"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "phy-mode": [
+      "rgmii-id"
+    ],
+    "xlnx,ptp-enet-clock": [
+      127777779
+    ],
+    "local-mac-address": "000a35001e53",
+    "phandle": [
+      48
+    ]
+  },
+  "/axi/ethernet@e000c000": {
+    "compatible": [
+      "xlnx,zynq-gem",
+      "cdns,gem"
+    ],
+    "reg": [
+      3758145536,
+      4096
+    ],
+    "status": [
+      "disabled"
+    ],
+    "interrupts": [
+      0,
+      45,
+      4
+    ],
+    "clocks": [
+      1,
+      31,
+      1,
+      31,
+      1,
+      14
+    ],
+    "clock-names": [
+      "pclk",
+      "hclk",
+      "tx_clk"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "phandle": [
+      49
+    ]
+  },
+  "/axi/memory-controller@e000e000": {
+    "compatible": [
+      "arm,pl353-smc-r2p1",
+      "arm,primecell"
+    ],
+    "reg": [
+      3758153728,
+      4096
+    ],
+    "status": [
+      "disabled"
+    ],
+    "clock-names": [
+      "memclk",
+      "apb_pclk"
+    ],
+    "clocks": [
+      1,
+      11,
+      1,
+      44
+    ],
+    "ranges": [
+      0,
+      0,
+      3774873600,
+      16777216,
+      1,
+      0,
+      3791650816,
+      33554432,
+      2,
+      0,
+      3825205248,
+      33554432
+    ],
+    "#address-cells": [
+      2
+    ],
+    "#size-cells": [
+      1
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      18,
+      4
+    ],
+    "phandle": [
+      50
+    ]
+  },
+  "/axi/memory-controller@e000e000/nand-controller@0,0": {
+    "compatible": [
+      "arm,pl353-nand-r2p1"
+    ],
+    "reg": [
+      0,
+      0,
+      16777216
+    ],
+    "status": [
+      "disabled"
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "phandle": [
+      51
+    ]
+  },
+  "/axi/memory-controller@e000e000/flash@1,0": {
+    "status": [
+      "disabled"
+    ],
+    "compatible": [
+      "cfi-flash"
+    ],
+    "reg": [
+      1,
+      0,
+      33554432
+    ],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "phandle": [
+      52
+    ]
+  },
+  "/axi/mmc@e0100000": {
+    "compatible": [
+      "arasan,sdhci-8.9a"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clock-names": [
+      "clk_xin",
+      "clk_ahb"
+    ],
+    "clocks": [
+      1,
+      21,
+      1,
+      32
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      24,
+      4
+    ],
+    "reg": [
+      3759144960,
+      4096
+    ],
+    "xlnx,has-cd": [
+      1
+    ],
+    "xlnx,has-power": [
+      0
+    ],
+    "xlnx,has-wp": [
+      0
+    ],
+    "u-boot,dm-pre-reloc": [],
+    "phandle": [
+      53
+    ]
+  },
+  "/axi/mmc@e0101000": {
+    "compatible": [
+      "arasan,sdhci-8.9a"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clock-names": [
+      "clk_xin",
+      "clk_ahb"
+    ],
+    "clocks": [
+      1,
+      22,
+      1,
+      33
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      47,
+      4
+    ],
+    "reg": [
+      3759149056,
+      4096
+    ],
+    "xlnx,has-cd": [
+      0
+    ],
+    "xlnx,has-power": [
+      0
+    ],
+    "xlnx,has-wp": [
+      0
+    ],
+    "phandle": [
+      54
+    ]
+  },
+  "/axi/slcr@f8000000": {
+    "u-boot,dm-pre-reloc": [],
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "compatible": [
+      "xlnx,zynq-slcr",
+      "syscon",
+      "simple-mfd"
+    ],
+    "reg": [
+      4160749568,
+      4096
+    ],
+    "ranges": [],
+    "phandle": [
+      9
+    ]
+  },
+  "/axi/slcr@f8000000/clkc@100": {
+    "u-boot,dm-pre-reloc": [],
+    "#clock-cells": [
+      1
+    ],
+    "compatible": [
+      "xlnx,ps7-clkc"
+    ],
+    "fclk-enable": [
+      3
+    ],
+    "clock-output-names": [
+      "armpll",
+      "ddrpll",
+      "iopll",
+      "cpu_6or4x",
+      "cpu_3or2x",
+      "cpu_2x",
+      "cpu_1x",
+      "ddr2x",
+      "ddr3x",
+      "dci",
+      "lqspi",
+      "smc",
+      "pcap",
+      "gem0",
+      "gem1",
+      "fclk0",
+      "fclk1",
+      "fclk2",
+      "fclk3",
+      "can0",
+      "can1",
+      "sdio0",
+      "sdio1",
+      "uart0",
+      "uart1",
+      "spi0",
+      "spi1",
+      "dma",
+      "usb0_aper",
+      "usb1_aper",
+      "gem0_aper",
+      "gem1_aper",
+      "sdio0_aper",
+      "sdio1_aper",
+      "spi0_aper",
+      "spi1_aper",
+      "can0_aper",
+      "can1_aper",
+      "i2c0_aper",
+      "i2c1_aper",
+      "uart0_aper",
+      "uart1_aper",
+      "gpio_aper",
+      "lqspi_aper",
+      "smc_aper",
+      "swdt",
+      "dbg_trc",
+      "dbg_apb"
+    ],
+    "reg": [
+      256,
+      256
+    ],
+    "ps-clk-frequency": [
+      33333333
+    ],
+    "phandle": [
+      1
+    ]
+  },
+  "/axi/slcr@f8000000/rstc@200": {
+    "compatible": [
+      "xlnx,zynq-reset"
+    ],
+    "reg": [
+      512,
+      72
+    ],
+    "#reset-cells": [
+      1
+    ],
+    "syscon": [
+      9
+    ],
+    "phandle": [
+      55
+    ]
+  },
+  "/axi/slcr@f8000000/pinctrl@700": {
+    "compatible": [
+      "xlnx,pinctrl-zynq"
+    ],
+    "reg": [
+      1792,
+      512
+    ],
+    "syscon": [
+      9
+    ],
+    "phandle": [
+      56
+    ]
+  },
+  "/axi/dma-controller@f8003000": {
+    "compatible": [
+      "arm,pl330",
+      "arm,primecell"
+    ],
+    "reg": [
+      4160761856,
+      4096
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      13,
+      4,
+      0,
+      14,
+      4,
+      0,
+      15,
+      4,
+      0,
+      16,
+      4,
+      0,
+      17,
+      4,
+      0,
+      40,
+      4,
+      0,
+      41,
+      4,
+      0,
+      42,
+      4,
+      0,
+      43,
+      4
+    ],
+    "#dma-cells": [
+      1
+    ],
+    "clocks": [
+      1,
+      27
+    ],
+    "clock-names": [
+      "apb_pclk"
+    ],
+    "phandle": [
+      57
+    ]
+  },
+  "/axi/devcfg@f8007000": {
+    "compatible": [
+      "xlnx,zynq-devcfg-1.0"
+    ],
+    "reg": [
+      4160778240,
+      256
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      8,
+      4
+    ],
+    "clocks": [
+      1,
+      12,
+      1,
+      15,
+      1,
+      16,
+      1,
+      17,
+      1,
+      18
+    ],
+    "clock-names": [
+      "ref_clk",
+      "fclk0",
+      "fclk1",
+      "fclk2",
+      "fclk3"
+    ],
+    "syscon": [
+      9
+    ],
+    "phandle": [
+      3
+    ]
+  },
+  "/axi/efuse@f800d000": {
+    "compatible": [
+      "xlnx,zynq-efuse"
+    ],
+    "reg": [
+      4160802816,
+      32
+    ],
+    "phandle": [
+      58
+    ]
+  },
+  "/axi/timer@f8f00200": {
+    "compatible": [
+      "arm,cortex-a9-global-timer"
+    ],
+    "reg": [
+      4176478720,
+      32
+    ],
+    "interrupts": [
+      1,
+      11,
+      769
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "clocks": [
+      1,
+      4
+    ],
+    "phandle": [
+      59
+    ]
+  },
+  "/axi/timer@f8001000": {
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      10,
+      4,
+      0,
+      11,
+      4,
+      0,
+      12,
+      4
+    ],
+    "compatible": [
+      "cdns,ttc"
+    ],
+    "clocks": [
+      1,
+      6
+    ],
+    "reg": [
+      4160753664,
+      4096
+    ],
+    "phandle": [
+      60
+    ]
+  },
+  "/axi/timer@f8002000": {
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      37,
+      4,
+      0,
+      38,
+      4,
+      0,
+      39,
+      4
+    ],
+    "compatible": [
+      "cdns,ttc"
+    ],
+    "clocks": [
+      1,
+      6
+    ],
+    "reg": [
+      4160757760,
+      4096
+    ],
+    "phandle": [
+      61
+    ]
+  },
+  "/axi/timer@f8f00600": {
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      1,
+      13,
+      769
+    ],
+    "compatible": [
+      "arm,cortex-a9-twd-timer"
+    ],
+    "reg": [
+      4176479744,
+      32
+    ],
+    "clocks": [
+      1,
+      4
+    ],
+    "phandle": [
+      62
+    ]
+  },
+  "/axi/usb@e0002000": {
+    "compatible": [
+      "xlnx,zynq-usb-2.20a",
+      "chipidea,usb2"
+    ],
+    "status": [
+      "okay"
+    ],
+    "clocks": [
+      1,
+      28
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      21,
+      4
+    ],
+    "reg": [
+      3758104576,
+      4096
+    ],
+    "phy_type": [
+      "ulpi"
+    ],
+    "usb-reset": [
+      8,
+      13,
+      0
+    ],
+    "dr_mode": [
+      "host"
+    ],
+    "usb-phy": [
+      10
+    ],
+    "phandle": [
+      63
+    ]
+  },
+  "/axi/usb@e0003000": {
+    "compatible": [
+      "xlnx,zynq-usb-2.20a",
+      "chipidea,usb2"
+    ],
+    "status": [
+      "disabled"
+    ],
+    "clocks": [
+      1,
+      29
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      44,
+      4
+    ],
+    "reg": [
+      3758108672,
+      4096
+    ],
+    "phy_type": [
+      "ulpi"
+    ],
+    "phandle": [
+      64
+    ]
+  },
+  "/axi/watchdog@f8005000": {
+    "clocks": [
+      1,
+      45
+    ],
+    "compatible": [
+      "cdns,wdt-r1p2"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      9,
+      1
+    ],
+    "reg": [
+      4160770048,
+      4096
+    ],
+    "timeout-sec": [
+      10
+    ],
+    "phandle": [
+      65
+    ]
+  },
+  "/axi/etb@f8801000": {
+    "compatible": [
+      "arm,coresight-etb10",
+      "arm,primecell"
+    ],
+    "reg": [
+      4169142272,
+      4096
+    ],
+    "clocks": [
+      1,
+      27,
+      1,
+      46,
+      1,
+      47
+    ],
+    "clock-names": [
+      "apb_pclk",
+      "dbg_trc",
+      "dbg_apb"
+    ]
+  },
+  "/axi/etb@f8801000/in-ports": {},
+  "/axi/etb@f8801000/in-ports/port": {},
+  "/axi/etb@f8801000/in-ports/port/endpoint": {
+    "remote-endpoint": [
+      11
+    ],
+    "phandle": [
+      6
+    ]
+  },
+  "/axi/tpiu@f8803000": {
+    "compatible": [
+      "arm,coresight-tpiu",
+      "arm,primecell"
+    ],
+    "reg": [
+      4169150464,
+      4096
+    ],
+    "clocks": [
+      1,
+      27,
+      1,
+      46,
+      1,
+      47
+    ],
+    "clock-names": [
+      "apb_pclk",
+      "dbg_trc",
+      "dbg_apb"
+    ]
+  },
+  "/axi/tpiu@f8803000/in-ports": {},
+  "/axi/tpiu@f8803000/in-ports/port": {},
+  "/axi/tpiu@f8803000/in-ports/port/endpoint": {
+    "remote-endpoint": [
+      12
+    ],
+    "phandle": [
+      5
+    ]
+  },
+  "/axi/funnel@f8804000": {
+    "compatible": [
+      "arm,coresight-static-funnel",
+      "arm,primecell"
+    ],
+    "reg": [
+      4169154560,
+      4096
+    ],
+    "clocks": [
+      1,
+      27,
+      1,
+      46,
+      1,
+      47
+    ],
+    "clock-names": [
+      "apb_pclk",
+      "dbg_trc",
+      "dbg_apb"
+    ]
+  },
+  "/axi/funnel@f8804000/out-ports": {},
+  "/axi/funnel@f8804000/out-ports/port": {},
+  "/axi/funnel@f8804000/out-ports/port/endpoint": {
+    "remote-endpoint": [
+      13
+    ],
+    "phandle": [
+      7
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports/port@0": {
+    "reg": [
+      0
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports/port@0/endpoint": {
+    "remote-endpoint": [
+      14
+    ],
+    "phandle": [
+      17
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports/port@1": {
+    "reg": [
+      1
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports/port@1/endpoint": {
+    "remote-endpoint": [
+      15
+    ],
+    "phandle": [
+      19
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports/port@2": {
+    "reg": [
+      2
+    ]
+  },
+  "/axi/funnel@f8804000/in-ports/port@2/endpoint": {
+    "phandle": [
+      66
+    ]
+  },
+  "/axi/ptm@f889c000": {
+    "compatible": [
+      "arm,coresight-etm3x",
+      "arm,primecell"
+    ],
+    "reg": [
+      4169777152,
+      4096
+    ],
+    "clocks": [
+      1,
+      27,
+      1,
+      46,
+      1,
+      47
+    ],
+    "clock-names": [
+      "apb_pclk",
+      "dbg_trc",
+      "dbg_apb"
+    ],
+    "cpu": [
+      16
+    ]
+  },
+  "/axi/ptm@f889c000/out-ports": {},
+  "/axi/ptm@f889c000/out-ports/port": {},
+  "/axi/ptm@f889c000/out-ports/port/endpoint": {
+    "remote-endpoint": [
+      17
+    ],
+    "phandle": [
+      14
+    ]
+  },
+  "/axi/ptm@f889d000": {
+    "compatible": [
+      "arm,coresight-etm3x",
+      "arm,primecell"
+    ],
+    "reg": [
+      4169781248,
+      4096
+    ],
+    "clocks": [
+      1,
+      27,
+      1,
+      46,
+      1,
+      47
+    ],
+    "clock-names": [
+      "apb_pclk",
+      "dbg_trc",
+      "dbg_apb"
+    ],
+    "cpu": [
+      18
+    ]
+  },
+  "/axi/ptm@f889d000/out-ports": {},
+  "/axi/ptm@f889d000/out-ports/port": {},
+  "/axi/ptm@f889d000/out-ports/port/endpoint": {
+    "remote-endpoint": [
+      19
+    ],
+    "phandle": [
+      15
+    ]
+  },
+  "/amba_pl": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      1
+    ],
+    "compatible": [
+      "simple-bus"
+    ],
+    "ranges": [],
+    "phandle": [
+      67
+    ]
+  },
+  "/amba_pl/gpio@41200000": {
+    "#gpio-cells": [
+      2
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,axi-gpio-2.0",
+      "xlnx,xps-gpio-1.00.a"
+    ],
+    "gpio-controller": [],
+    "reg": [
+      1092616192,
+      65536
+    ],
+    "xlnx,all-inputs": [
+      0
+    ],
+    "xlnx,all-inputs-2": [
+      0
+    ],
+    "xlnx,all-outputs": [
+      0
+    ],
+    "xlnx,all-outputs-2": [
+      0
+    ],
+    "xlnx,dout-default": [
+      0
+    ],
+    "xlnx,dout-default-2": [
+      0
+    ],
+    "xlnx,gpio-width": [
+      32
+    ],
+    "xlnx,gpio2-width": [
+      32
+    ],
+    "xlnx,interrupt-present": [
+      0
+    ],
+    "xlnx,is-dual": [
+      1
+    ],
+    "xlnx,tri-default": [
+      4294967295
+    ],
+    "xlnx,tri-default-2": [
+      4294967295
+    ],
+    "phandle": [
+      68
+    ]
+  },
+  "/amba_pl/gpio@41210000": {
+    "#gpio-cells": [
+      2
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,axi-gpio-2.0",
+      "xlnx,xps-gpio-1.00.a"
+    ],
+    "gpio-controller": [],
+    "reg": [
+      1092681728,
+      65536
+    ],
+    "xlnx,all-inputs": [
+      0
+    ],
+    "xlnx,all-inputs-2": [
+      0
+    ],
+    "xlnx,all-outputs": [
+      0
+    ],
+    "xlnx,all-outputs-2": [
+      0
+    ],
+    "xlnx,dout-default": [
+      0
+    ],
+    "xlnx,dout-default-2": [
+      0
+    ],
+    "xlnx,gpio-width": [
+      8
+    ],
+    "xlnx,gpio2-width": [
+      32
+    ],
+    "xlnx,interrupt-present": [
+      0
+    ],
+    "xlnx,is-dual": [
+      0
+    ],
+    "xlnx,tri-default": [
+      4294967295
+    ],
+    "xlnx,tri-default-2": [
+      4294967295
+    ],
+    "phandle": [
+      69
+    ]
+  },
+  "/amba_pl/i2c@41600000": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,axi-iic-2.1",
+      "xlnx,xps-iic-2.00.a"
+    ],
+    "interrupt-names": [
+      "iic2intc_irpt"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      52,
+      4
+    ],
+    "reg": [
+      1096810496,
+      65536
+    ],
+    "clock-frequency": [
+      100000
+    ],
+    "phandle": [
+      70
+    ]
+  },
+  "/amba_pl/i2c@41600000/eeprom1@50": {
+    "compatible": [
+      "atmel,24c256"
+    ],
+    "reg": [
+      80
+    ],
+    "pagesize": [
+      32
+    ]
+  },
+  "/amba_pl/gpio@41220000": {
+    "#gpio-cells": [
+      2
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,axi-gpio-2.0",
+      "xlnx,xps-gpio-1.00.a"
+    ],
+    "gpio-controller": [],
+    "reg": [
+      1092747264,
+      65536
+    ],
+    "xlnx,all-inputs": [
+      0
+    ],
+    "xlnx,all-inputs-2": [
+      0
+    ],
+    "xlnx,all-outputs": [
+      0
+    ],
+    "xlnx,all-outputs-2": [
+      0
+    ],
+    "xlnx,dout-default": [
+      0
+    ],
+    "xlnx,dout-default-2": [
+      0
+    ],
+    "xlnx,gpio-width": [
+      32
+    ],
+    "xlnx,gpio2-width": [
+      2
+    ],
+    "xlnx,interrupt-present": [
+      0
+    ],
+    "xlnx,is-dual": [
+      1
+    ],
+    "xlnx,tri-default": [
+      4294967295
+    ],
+    "xlnx,tri-default-2": [
+      4294967295
+    ],
+    "phandle": [
+      71
+    ]
+  },
+  "/amba_pl/gpio@41230000": {
+    "#gpio-cells": [
+      2
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,axi-gpio-2.0",
+      "xlnx,xps-gpio-1.00.a"
+    ],
+    "gpio-controller": [],
+    "reg": [
+      1092812800,
+      65536
+    ],
+    "xlnx,all-inputs": [
+      0
+    ],
+    "xlnx,all-inputs-2": [
+      0
+    ],
+    "xlnx,all-outputs": [
+      0
+    ],
+    "xlnx,all-outputs-2": [
+      0
+    ],
+    "xlnx,dout-default": [
+      0
+    ],
+    "xlnx,dout-default-2": [
+      0
+    ],
+    "xlnx,gpio-width": [
+      2
+    ],
+    "xlnx,gpio2-width": [
+      32
+    ],
+    "xlnx,interrupt-present": [
+      0
+    ],
+    "xlnx,is-dual": [
+      0
+    ],
+    "xlnx,tri-default": [
+      4294967295
+    ],
+    "xlnx,tri-default-2": [
+      4294967295
+    ],
+    "phandle": [
+      72
+    ]
+  },
+  "/amba_pl/axi_dynclk@43c00000": {
+    "clock-names": [
+      "REF_CLK_I",
+      "s_axi_lite_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "dglnt,axi-dynclk"
+    ],
+    "reg": [
+      1136656384,
+      65536
+    ],
+    "#clock-cells": [
+      0
+    ],
+    "phandle": [
+      26
+    ]
+  },
+  "/amba_pl/ethernet@41000000": {
+    "axistream-connected": [
+      20
+    ],
+    "axistream-control-connected": [
+      20
+    ],
+    "clock-frequency": [
+      100000000
+    ],
+    "clock-names": [
+      "s_axi_lite_clk",
+      "axis_clk",
+      "gtx_clk",
+      "ref_clk"
+    ],
+    "clocks": [
+      1,
+      15,
+      1,
+      15,
+      21,
+      22
+    ],
+    "compatible": [
+      "xlnx,axi-ethernet-7.2",
+      "xlnx,axi-ethernet-1.00.a"
+    ],
+    "device_type": [
+      "network"
+    ],
+    "interrupt-names": [
+      "mac_irq",
+      "interrupt",
+      "mm2s_introut",
+      "s2mm_introut"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      29,
+      1,
+      0,
+      30,
+      4,
+      0,
+      31,
+      4,
+      0,
+      32,
+      4
+    ],
+    "local-mac-address": "000a35000122",
+    "phy-mode": [
+      "rgmii-rxid"
+    ],
+    "reg": [
+      1090519040,
+      262144
+    ],
+    "xlnx": [
+      0
+    ],
+    "xlnx,axiliteclkrate": [
+      0
+    ],
+    "xlnx,axisclkrate": [
+      0
+    ],
+    "xlnx,channel-ids": [
+      "1"
+    ],
+    "xlnx,clockselection": [
+      0
+    ],
+    "xlnx,enableasyncsgmii": [
+      0
+    ],
+    "xlnx,gt-type": [
+      0
+    ],
+    "xlnx,gtinex": [
+      0
+    ],
+    "xlnx,gtlocation": [
+      0
+    ],
+    "xlnx,gtrefclksrc": [
+      0
+    ],
+    "xlnx,include-dre": [],
+    "xlnx,instantiatebitslice0": [
+      0
+    ],
+    "xlnx,num-queues": "0001",
+    "xlnx,phyaddr": [
+      1
+    ],
+    "xlnx,phyrst-board-interface-dummy-port": [
+      0
+    ],
+    "xlnx,rable": [
+      0
+    ],
+    "xlnx,rxcsum": [
+      2
+    ],
+    "xlnx,rxlane0-placement": [
+      0
+    ],
+    "xlnx,rxlane1-placement": [
+      0
+    ],
+    "xlnx,rxmem": [
+      16384
+    ],
+    "xlnx,rxnibblebitslice0used": [
+      0
+    ],
+    "xlnx,tx-in-upper-nibble": [
+      1
+    ],
+    "xlnx,txcsum": [
+      2
+    ],
+    "xlnx,txlane0-placement": [
+      0
+    ],
+    "xlnx,txlane1-placement": [
+      0
+    ],
+    "xlnx,versal-gt-board-flow": [
+      0
+    ],
+    "zclock-names": [
+      "NULL"
+    ],
+    "zclocks": [
+      "NULL"
+    ],
+    "phy-handle": [
+      23
+    ],
+    "xlnx,has-mdio": [
+      1
+    ],
+    "phandle": [
+      24
+    ]
+  },
+  "/amba_pl/ethernet@41000000/mdio": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ],
+    "phandle": [
+      73
+    ]
+  },
+  "/amba_pl/ethernet@41000000/mdio/phy@1": {
+    "device_type": [
+      "ethernet-phy"
+    ],
+    "reg": [
+      1
+    ],
+    "phandle": [
+      23
+    ]
+  },
+  "/amba_pl/misc_clk_0": {
+    "#clock-cells": [
+      0
+    ],
+    "clock-frequency": [
+      125000000
+    ],
+    "compatible": [
+      "fixed-clock"
+    ],
+    "phandle": [
+      21
+    ]
+  },
+  "/amba_pl/misc_clk_1": {
+    "#clock-cells": [
+      0
+    ],
+    "clock-frequency": [
+      200000000
+    ],
+    "compatible": [
+      "fixed-clock"
+    ],
+    "phandle": [
+      22
+    ]
+  },
+  "/amba_pl/dma@40400000": {
+    "#dma-cells": [
+      1
+    ],
+    "axistream-connected": [
+      24
+    ],
+    "axistream-control-connected": [
+      24
+    ],
+    "clock-names": [
+      "s_axi_lite_aclk",
+      "m_axi_sg_aclk",
+      "m_axi_mm2s_aclk",
+      "m_axi_s2mm_aclk"
+    ],
+    "clocks": [
+      1,
+      15,
+      1,
+      15,
+      1,
+      15,
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,eth-dma"
+    ],
+    "interrupt-names": [
+      "mm2s_introut",
+      "s2mm_introut"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      31,
+      4,
+      0,
+      32,
+      4
+    ],
+    "reg": [
+      1077936128,
+      65536
+    ],
+    "xlnx,addrwidth": "20",
+    "xlnx,include-dre": [],
+    "xlnx,num-queues": "0001",
+    "phandle": [
+      20
+    ]
+  },
+  "/amba_pl/serial@43c10000": {
+    "clock-frequency": [
+      100000000
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,xps-uart16550-2.00.a",
+      "ns16550a"
+    ],
+    "current-speed": [
+      115200
+    ],
+    "device_type": [
+      "serial"
+    ],
+    "interrupt-names": [
+      "ip2intc_irpt"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      34,
+      4
+    ],
+    "port-number": [
+      1
+    ],
+    "reg": [
+      1136721920,
+      65536
+    ],
+    "reg-offset": [
+      4096
+    ],
+    "reg-shift": [
+      2
+    ],
+    "xlnx,external-xin-clk-hz": [
+      25000000
+    ],
+    "xlnx,external-xin-clk-hz-d": [
+      25
+    ],
+    "xlnx,has-external-rclk": [
+      0
+    ],
+    "xlnx,has-external-xin": [
+      0
+    ],
+    "xlnx,is-a-16550": [
+      1
+    ],
+    "xlnx,s-axi-aclk-freq-hz-d": [
+      "100.0"
+    ],
+    "xlnx,sim-device": [
+      "VERSAL_AI_CORE_ES1"
+    ],
+    "xlnx,use-modem-ports": [
+      1
+    ],
+    "xlnx,use-user-ports": [
+      1
+    ],
+    "phandle": [
+      74
+    ]
+  },
+  "/amba_pl/serial@43c20000": {
+    "clock-frequency": [
+      100000000
+    ],
+    "clock-names": [
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,xps-uart16550-2.00.a",
+      "ns16550a"
+    ],
+    "current-speed": [
+      115200
+    ],
+    "device_type": [
+      "serial"
+    ],
+    "interrupt-names": [
+      "ip2intc_irpt"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      35,
+      4
+    ],
+    "port-number": [
+      2
+    ],
+    "reg": [
+      1136787456,
+      65536
+    ],
+    "reg-offset": [
+      4096
+    ],
+    "reg-shift": [
+      2
+    ],
+    "xlnx,external-xin-clk-hz": [
+      25000000
+    ],
+    "xlnx,external-xin-clk-hz-d": [
+      25
+    ],
+    "xlnx,has-external-rclk": [
+      0
+    ],
+    "xlnx,has-external-xin": [
+      0
+    ],
+    "xlnx,is-a-16550": [
+      1
+    ],
+    "xlnx,s-axi-aclk-freq-hz-d": [
+      "100.0"
+    ],
+    "xlnx,sim-device": [
+      "VERSAL_AI_CORE_ES1"
+    ],
+    "xlnx,use-modem-ports": [
+      1
+    ],
+    "xlnx,use-user-ports": [
+      1
+    ],
+    "phandle": [
+      75
+    ]
+  },
+  "/amba_pl/dma@43000000": {
+    "#dma-cells": [
+      1
+    ],
+    "clock-names": [
+      "s_axi_lite_aclk",
+      "m_axi_mm2s_aclk",
+      "m_axis_mm2s_aclk"
+    ],
+    "clocks": [
+      1,
+      15,
+      1,
+      16,
+      1,
+      16
+    ],
+    "compatible": [
+      "xlnx,axi-vdma-6.3",
+      "xlnx,axi-vdma-1.00.a"
+    ],
+    "interrupt-names": [
+      "mm2s_introut"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      33,
+      4
+    ],
+    "reg": [
+      1124073472,
+      65536
+    ],
+    "xlnx,addrwidth": [
+      32
+    ],
+    "xlnx,flush-fsync": [
+      1
+    ],
+    "xlnx,num-fstores": [
+      1
+    ],
+    "phandle": [
+      29
+    ]
+  },
+  "/amba_pl/dma@43000000/dma-channel@43000000": {
+    "compatible": [
+      "xlnx,axi-vdma-mm2s-channel"
+    ],
+    "interrupts": [
+      0,
+      33,
+      4
+    ],
+    "xlnx,datawidth": [
+      24
+    ],
+    "xlnx,device-id": [
+      0
+    ],
+    "xlnx,genlock-mode": [],
+    "xlnx,include-dre": []
+  },
+  "/amba_pl/v_tc@43c30000": {
+    "clock-names": [
+      "clk",
+      "s_axi_aclk"
+    ],
+    "clocks": [
+      25,
+      1,
+      15
+    ],
+    "compatible": [
+      "xlnx,bridge-v-tc-6.1"
+    ],
+    "interrupt-names": [
+      "irq"
+    ],
+    "interrupt-parent": [
+      4
+    ],
+    "interrupts": [
+      0,
+      36,
+      4
+    ],
+    "reg": [
+      1136852992,
+      65536
+    ],
+    "xlnx,generator": [],
+    "xlnx,pixels-per-clock": [
+      1
+    ],
+    "phandle": [
+      30
+    ]
+  },
+  "/amba_pl/misc_clk_2": {
+    "#clock-cells": [
+      0
+    ],
+    "clock-frequency": [
+      100000000
+    ],
+    "compatible": [
+      "fixed-clock"
+    ],
+    "phandle": [
+      25
+    ]
+  },
+  "/amba_pl/digilent_hdmi": {
+    "compatible": [
+      "digilent,hdmi"
+    ],
+    "clocks": [
+      26
+    ],
+    "clock-names": [
+      "clk"
+    ],
+    "digilent,edid-i2c": [
+      27
+    ],
+    "digilent,fmax": [
+      150000
+    ]
+  },
+  "/amba_pl/digilent_hdmi/port@0": {
+    "#address-cells": [
+      1
+    ],
+    "#size-cells": [
+      0
+    ]
+  },
+  "/amba_pl/digilent_hdmi/port@0/endpoint": {
+    "remote-endpoint": [
+      28
+    ],
+    "phandle": [
+      31
+    ]
+  },
+  "/amba_pl/xlnx_pl_disp": {
+    "compatible": [
+      "xlnx,pl-disp"
+    ],
+    "dmas": [
+      29,
+      0
+    ],
+    "dma-names": [
+      "dma0"
+    ],
+    "xlnx,vformat": [
+      "RG24"
+    ],
+    "xlnx,bridge": [
+      30
+    ]
+  },
+  "/amba_pl/xlnx_pl_disp/port@0": {
+    "reg": [
+      0
+    ]
+  },
+  "/amba_pl/xlnx_pl_disp/port@0/endpoint": {
+    "remote-endpoint": [
+      31
+    ],
+    "phandle": [
+      28
+    ]
+  },
+  "/chosen": {
+    "bootargs": [
+      "console=ttyPS0,115200 earlycon root=/dev/mmcblk0p2 rw rootwait"
+    ],
+    "stdout-path": [
+      "serial0:115200n8"
+    ]
+  },
+  "/aliases": {
+    "ethernet0": [
+      "/axi/ethernet@e000b000"
+    ],
+    "ethernet1": [
+      "/amba_pl/ethernet@41000000"
+    ],
+    "i2c0": [
+      "/axi/i2c@e0004000"
+    ],
+    "i2c1": [
+      "/axi/i2c@e0005000"
+    ],
+    "i2c2": [
+      "/amba_pl/i2c@41600000"
+    ],
+    "serial0": [
+      "/axi/serial@e0000000"
+    ],
+    "serial1": [
+      "/amba_pl/serial@43c20000"
+    ],
+    "serial2": [
+      "/amba_pl/serial@43c10000"
+    ],
+    "spi0": [
+      "/axi/spi@e000d000"
+    ],
+    "spi1": [
+      "/axi/spi@e0006000"
+    ]
+  },
+  "/memory@0": {
+    "device_type": [
+      "memory"
+    ],
+    "reg": [
+      0,
+      1073741824
+    ]
+  },
+  "/usb_phy@0": {
+    "compatible": [
+      "ulpi-phy"
+    ],
+    "#phy-cells": [
+      0
+    ],
+    "reg": [
+      3758104576,
+      4096
+    ],
+    "view-port": [
+      368
+    ],
+    "drv-vbus": [],
+    "phandle": [
+      10
+    ]
+  },
+  "/leds": {
+    "compatible": [
+      "gpio-leds"
+    ]
+  },
+  "/leds/led0": {
+    "label": [
+      "ps_led1"
+    ],
+    "gpios": [
+      8,
+      8,
+      0
+    ],
+    "default-state": [
+      "off"
+    ]
+  },
+  "/leds/led1": {
+    "label": [
+      "ps_led2"
+    ],
+    "gpios": [
+      8,
+      7,
+      0
+    ],
+    "default-state": [
+      "off"
+    ]
+  },
+  "/leds/led2": {
+    "label": [
+      "pl_led1"
+    ],
+    "gpios": [
+      8,
+      54,
+      0
+    ],
+    "default-state": [
+      "off"
+    ]
+  },
+  "/leds/led3": {
+    "label": [
+      "pl_led2"
+    ],
+    "gpios": [
+      8,
+      55,
+      0
+    ],
+    "default-state": [
+      "off"
+    ]
+  },
+  "/leds/led4": {
+    "label": [
+      "pl_prsnt"
+    ],
+    "gpios": [
+      8,
+      58,
+      0
+    ],
+    "linux,default-trigger": [
+      "heartbeat"
+    ]
+  },
+  "/keys": {
+    "compatible": [
+      "gpio-keys"
+    ],
+    "autorepeat": []
+  },
+  "/keys/gpio-key1": {
+    "label": [
+      "ps_key1"
+    ],
+    "gpios": [
+      8,
+      0,
+      1
+    ],
+    "linux,code": [
+      103
+    ],
+    "debounce-interval": [
+      20
+    ]
+  },
+  "/keys/gpio-key2": {
+    "label": [
+      "ps_key2"
+    ],
+    "gpios": [
+      8,
+      12,
+      1
+    ],
+    "linux,code": [
+      108
+    ],
+    "debounce-interval": [
+      20
+    ]
+  },
+  "/keys/gpio-key3": {
+    "label": [
+      "pl_key1"
+    ],
+    "gpios": [
+      8,
+      56,
+      1
+    ],
+    "linux,code": [
+      105
+    ],
+    "debounce-interval": [
+      20
+    ]
+  },
+  "/keys/gpio-key4": {
+    "label": [
+      "pl_key2"
+    ],
+    "gpios": [
+      8,
+      57,
+      1
+    ],
+    "linux,code": [
+      106
+    ],
+    "debounce-interval": [
+      20
+    ]
+  },
+  "/__symbols__": {
+    "cpu0": [
+      "/cpus/cpu@0"
+    ],
+    "cpu1": [
+      "/cpus/cpu@1"
+    ],
+    "fpga_full": [
+      "/fpga-full"
+    ],
+    "regulator_vccpint": [
+      "/fixedregulator"
+    ],
+    "replicator_out_port0": [
+      "/replicator/out-ports/port@0/endpoint"
+    ],
+    "replicator_out_port1": [
+      "/replicator/out-ports/port@1/endpoint"
+    ],
+    "replicator_in_port0": [
+      "/replicator/in-ports/port/endpoint"
+    ],
+    "amba": [
+      "/axi"
+    ],
+    "adc": [
+      "/axi/adc@f8007100"
+    ],
+    "can0": [
+      "/axi/can@e0008000"
+    ],
+    "can1": [
+      "/axi/can@e0009000"
+    ],
+    "gpio0": [
+      "/axi/gpio@e000a000"
+    ],
+    "i2c0": [
+      "/axi/i2c@e0004000"
+    ],
+    "cape_eeprom0": [
+      "/axi/i2c@e0004000/cape_eeprom0@50"
+    ],
+    "i2c1": [
+      "/axi/i2c@e0005000"
+    ],
+    "intc": [
+      "/axi/interrupt-controller@f8f01000"
+    ],
+    "L2": [
+      "/axi/cache-controller@f8f02000"
+    ],
+    "mc": [
+      "/axi/memory-controller@f8006000"
+    ],
+    "ocm": [
+      "/axi/sram@fffc0000"
+    ],
+    "uart0": [
+      "/axi/serial@e0000000"
+    ],
+    "uart1": [
+      "/axi/serial@e0001000"
+    ],
+    "spi0": [
+      "/axi/spi@e0006000"
+    ],
+    "spi1": [
+      "/axi/spi@e0007000"
+    ],
+    "qspi": [
+      "/axi/spi@e000d000"
+    ],
+    "flash0": [
+      "/axi/spi@e000d000/flash@0"
+    ],
+    "gem0": [
+      "/axi/ethernet@e000b000"
+    ],
+    "gem1": [
+      "/axi/ethernet@e000c000"
+    ],
+    "smcc": [
+      "/axi/memory-controller@e000e000"
+    ],
+    "nfc0": [
+      "/axi/memory-controller@e000e000/nand-controller@0,0"
+    ],
+    "nor0": [
+      "/axi/memory-controller@e000e000/flash@1,0"
+    ],
+    "sdhci0": [
+      "/axi/mmc@e0100000"
+    ],
+    "sdhci1": [
+      "/axi/mmc@e0101000"
+    ],
+    "slcr": [
+      "/axi/slcr@f8000000"
+    ],
+    "clkc": [
+      "/axi/slcr@f8000000/clkc@100"
+    ],
+    "rstc": [
+      "/axi/slcr@f8000000/rstc@200"
+    ],
+    "pinctrl0": [
+      "/axi/slcr@f8000000/pinctrl@700"
+    ],
+    "dmac_s": [
+      "/axi/dma-controller@f8003000"
+    ],
+    "devcfg": [
+      "/axi/devcfg@f8007000"
+    ],
+    "efuse": [
+      "/axi/efuse@f800d000"
+    ],
+    "global_timer": [
+      "/axi/timer@f8f00200"
+    ],
+    "ttc0": [
+      "/axi/timer@f8001000"
+    ],
+    "ttc1": [
+      "/axi/timer@f8002000"
+    ],
+    "scutimer": [
+      "/axi/timer@f8f00600"
+    ],
+    "usb0": [
+      "/axi/usb@e0002000"
+    ],
+    "usb1": [
+      "/axi/usb@e0003000"
+    ],
+    "watchdog0": [
+      "/axi/watchdog@f8005000"
+    ],
+    "etb_in_port": [
+      "/axi/etb@f8801000/in-ports/port/endpoint"
+    ],
+    "tpiu_in_port": [
+      "/axi/tpiu@f8803000/in-ports/port/endpoint"
+    ],
+    "funnel_out_port": [
+      "/axi/funnel@f8804000/out-ports/port/endpoint"
+    ],
+    "funnel0_in_port0": [
+      "/axi/funnel@f8804000/in-ports/port@0/endpoint"
+    ],
+    "funnel0_in_port1": [
+      "/axi/funnel@f8804000/in-ports/port@1/endpoint"
+    ],
+    "funnel0_in_port2": [
+      "/axi/funnel@f8804000/in-ports/port@2/endpoint"
+    ],
+    "ptm0_out_port": [
+      "/axi/ptm@f889c000/out-ports/port/endpoint"
+    ],
+    "ptm1_out_port": [
+      "/axi/ptm@f889d000/out-ports/port/endpoint"
+    ],
+    "amba_pl": [
+      "/amba_pl"
+    ],
+    "FMC1": [
+      "/amba_pl/gpio@41200000"
+    ],
+    "FMC2": [
+      "/amba_pl/gpio@41210000"
+    ],
+    "FMC_IIC": [
+      "/amba_pl/i2c@41600000"
+    ],
+    "IO_40PIN": [
+      "/amba_pl/gpio@41220000"
+    ],
+    "RS485_DE": [
+      "/amba_pl/gpio@41230000"
+    ],
+    "axi_dynclk_0": [
+      "/amba_pl/axi_dynclk@43c00000"
+    ],
+    "axi_ethernet_0": [
+      "/amba_pl/ethernet@41000000"
+    ],
+    "axi_ethernet_0_mdio": [
+      "/amba_pl/ethernet@41000000/mdio"
+    ],
+    "phy1": [
+      "/amba_pl/ethernet@41000000/mdio/phy@1"
+    ],
+    "misc_clk_0": [
+      "/amba_pl/misc_clk_0"
+    ],
+    "misc_clk_1": [
+      "/amba_pl/misc_clk_1"
+    ],
+    "axi_ethernet_0_dma": [
+      "/amba_pl/dma@40400000"
+    ],
+    "axi_uart16550_0": [
+      "/amba_pl/serial@43c10000"
+    ],
+    "axi_uart16550_1": [
+      "/amba_pl/serial@43c20000"
+    ],
+    "axi_vdma_0": [
+      "/amba_pl/dma@43000000"
+    ],
+    "v_tc_0": [
+      "/amba_pl/v_tc@43c30000"
+    ],
+    "misc_clk_2": [
+      "/amba_pl/misc_clk_2"
+    ],
+    "hdmi_ep": [
+      "/amba_pl/digilent_hdmi/port@0/endpoint"
+    ],
+    "pl_disp_ep": [
+      "/amba_pl/xlnx_pl_disp/port@0/endpoint"
+    ],
+    "usb_phy0": [
+      "/usb_phy@0"
+    ]
+  }
+}

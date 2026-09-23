@@ -1,0 +1,128 @@
+{
+  "ps7_pll_init_data_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 66060,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 66060,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 66060
+  },
+  "ps7_clock_init_data_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": -1,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": -1,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": -1
+  },
+  "ps7_ddr_init_data_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 73472,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 73472,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 73472
+  },
+  "ps7_mio_init_data_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 75060,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 75060,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 75060
+  },
+  "ps7_peripherals_init_data_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 74780,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 74780,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 74780
+  },
+  "ps7_post_config_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 65760,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": 49256,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 65760,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 65760
+  },
+  "ps7_debug_3_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 65940,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": 49316,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 65940,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 65940
+  },
+  "ps7_pll_init_data_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 66060,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 66060,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 66060
+  },
+  "ps7_clock_init_data_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": -1,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": -1,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": -1
+  },
+  "ps7_ddr_init_data_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 70068,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 70068,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 70068
+  },
+  "ps7_mio_init_data_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 71672,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 71672,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 71672
+  },
+  "ps7_peripherals_init_data_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 67988,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 67988,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 67988
+  },
+  "ps7_post_config_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 65760,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": 49256,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 65760,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 65760
+  },
+  "ps7_debug_2_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 65940,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": 49316,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 65940,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 65940
+  },
+  "ps7_pll_init_data_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 66060,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 66060,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 66060
+  },
+  "ps7_clock_init_data_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": -1,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": -1,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": -1
+  },
+  "ps7_ddr_init_data_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 66696,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 66696,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 66696
+  },
+  "ps7_mio_init_data_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 68268,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 68268,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 68268
+  },
+  "ps7_peripherals_init_data_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 67988,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": -1,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 67988,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 67988
+  },
+  "ps7_post_config_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 65760,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": 49256,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 65760,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 65760
+  },
+  "ps7_debug_1_0": {
+    "Board Analysis/Boot_Modified_RK7020/BOOT.bin": 65940,
+    "Board Analysis/Boot_Modified_RK7020/_BOOT.BIN": 49316,
+    "Board Analysis/Filesystem/boot/BOOT.bin": 65940,
+    "Board Analysis/Filesystem/opt/image/BOOT.BIN": 65940
+  }
+}

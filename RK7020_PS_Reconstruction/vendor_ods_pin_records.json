@@ -1,0 +1,1842 @@
+[
+  {
+    "sheet": "PS",
+    "row": 3,
+    "group": "QSPI",
+    "pin": "A1",
+    "name": "PS_MIO1_500",
+    "net": "PS_MIO1_QSPI_CS"
+  },
+  {
+    "sheet": "PS",
+    "row": 3,
+    "group": "SD CARD",
+    "pin": "E14",
+    "name": "PS_MIO40_501",
+    "net": "SD_CLK"
+  },
+  {
+    "sheet": "PS",
+    "row": 3,
+    "group": "EMMC",
+    "pin": "D12",
+    "name": "PS_MIO46_501",
+    "net": "MMC_DAT0"
+  },
+  {
+    "sheet": "PS",
+    "row": 4,
+    "group": "QSPI",
+    "pin": "A2",
+    "name": "PS_MIO2_500",
+    "net": "PS_MIO2_QSPI_DQ0"
+  },
+  {
+    "sheet": "PS",
+    "row": 4,
+    "group": "SD CARD",
+    "pin": "C8",
+    "name": "PS_MIO41_501",
+    "net": "SD_CMD"
+  },
+  {
+    "sheet": "PS",
+    "row": 4,
+    "group": "EMMC",
+    "pin": "B10",
+    "name": "PS_MIO47_501",
+    "net": "MMC_CMD"
+  },
+  {
+    "sheet": "PS",
+    "row": 5,
+    "group": "QSPI",
+    "pin": "F6",
+    "name": "PS_MIO3_500",
+    "net": "PS_MIO3_QSPI_DQ1"
+  },
+  {
+    "sheet": "PS",
+    "row": 5,
+    "group": "SD CARD",
+    "pin": "D8",
+    "name": "PS_MIO42_501",
+    "net": "SD_D0"
+  },
+  {
+    "sheet": "PS",
+    "row": 5,
+    "group": "EMMC",
+    "pin": "D11",
+    "name": "PS_MIO48_501",
+    "net": "MMC_CLK"
+  },
+  {
+    "sheet": "PS",
+    "row": 6,
+    "group": "QSPI",
+    "pin": "E4",
+    "name": "PS_MIO4_500",
+    "net": "PS_MIO4_QSPI_DQ2"
+  },
+  {
+    "sheet": "PS",
+    "row": 6,
+    "group": "SD CARD",
+    "pin": "B11",
+    "name": "PS_MIO43_501",
+    "net": "SD_D1"
+  },
+  {
+    "sheet": "PS",
+    "row": 6,
+    "group": "EMMC",
+    "pin": "C14",
+    "name": "PS_MIO49_501",
+    "net": "MMC_DAT1"
+  },
+  {
+    "sheet": "PS",
+    "row": 7,
+    "group": "QSPI",
+    "pin": "A3",
+    "name": "PS_MIO5_500",
+    "net": "PS_MIO5_QSPI_DQ3"
+  },
+  {
+    "sheet": "PS",
+    "row": 7,
+    "group": "SD CARD",
+    "pin": "E13",
+    "name": "PS_MIO44_501",
+    "net": "SD_D2"
+  },
+  {
+    "sheet": "PS",
+    "row": 7,
+    "group": "EMMC",
+    "pin": "D13",
+    "name": "PS_MIO50_501",
+    "net": "MMC_DAT2"
+  },
+  {
+    "sheet": "PS",
+    "row": 8,
+    "group": "QSPI",
+    "pin": "A4",
+    "name": "PS_MIO6_500",
+    "net": "PS_MIO6_QSPI_CLK"
+  },
+  {
+    "sheet": "PS",
+    "row": 8,
+    "group": "SD CARD",
+    "pin": "B9",
+    "name": "PS_MIO45_501",
+    "net": "SD_D3"
+  },
+  {
+    "sheet": "PS",
+    "row": 8,
+    "group": "EMMC",
+    "pin": "C10",
+    "name": "PS_MIO51_501",
+    "net": "MMC_DAT3"
+  },
+  {
+    "sheet": "PS",
+    "row": 9,
+    "group": "SD CARD",
+    "pin": "C4",
+    "name": "PS_MIO9_500",
+    "net": "PS_MIO9_SD_CD"
+  },
+  {
+    "sheet": "PS",
+    "row": 14,
+    "group": "PS ETH",
+    "pin": "D6",
+    "name": "PS_MIO16_501",
+    "net": "PHY1_TXCK"
+  },
+  {
+    "sheet": "PS",
+    "row": 14,
+    "group": "USB",
+    "pin": "A12",
+    "name": "PS_MIO28_501",
+    "net": "USB_DATA4"
+  },
+  {
+    "sheet": "PS",
+    "row": 14,
+    "group": "I2C",
+    "pin": "B6",
+    "name": "PS_MIO14_500",
+    "net": "PS_MIO14_IIC0_SCL"
+  },
+  {
+    "sheet": "PS",
+    "row": 15,
+    "group": "PS ETH",
+    "pin": "E9",
+    "name": "PS_MIO17_501",
+    "net": "PHY1_TXD0"
+  },
+  {
+    "sheet": "PS",
+    "row": 15,
+    "group": "USB",
+    "pin": "E8",
+    "name": "PS_MIO29_501",
+    "net": "USB_DIR"
+  },
+  {
+    "sheet": "PS",
+    "row": 15,
+    "group": "I2C",
+    "pin": "E6",
+    "name": "PS_MIO15_500",
+    "net": "PS_MIO15_IIC0_SDA"
+  },
+  {
+    "sheet": "PS",
+    "row": 16,
+    "group": "PS ETH",
+    "pin": "A7",
+    "name": "PS_MIO18_501",
+    "net": "PHY1_TXD1"
+  },
+  {
+    "sheet": "PS",
+    "row": 16,
+    "group": "USB",
+    "pin": "A11",
+    "name": "PS_MIO30_501",
+    "net": "USB_STP"
+  },
+  {
+    "sheet": "PS",
+    "row": 17,
+    "group": "PS ETH",
+    "pin": "E10",
+    "name": "PS_MIO19_501",
+    "net": "PHY1_TXD2"
+  },
+  {
+    "sheet": "PS",
+    "row": 17,
+    "group": "USB",
+    "pin": "F9",
+    "name": "PS_MIO31_501",
+    "net": "USB_NXT"
+  },
+  {
+    "sheet": "PS",
+    "row": 18,
+    "group": "PS ETH",
+    "pin": "A8",
+    "name": "PS_MIO20_501",
+    "net": "PHY1_TXD3"
+  },
+  {
+    "sheet": "PS",
+    "row": 18,
+    "group": "USB",
+    "pin": "C7",
+    "name": "PS_MIO32_501",
+    "net": "USB_DATA0"
+  },
+  {
+    "sheet": "PS",
+    "row": 19,
+    "group": "PS ETH",
+    "pin": "F11",
+    "name": "PS_MIO21_501",
+    "net": "PHY1_TXCTL"
+  },
+  {
+    "sheet": "PS",
+    "row": 19,
+    "group": "USB",
+    "pin": "G13",
+    "name": "PS_MIO33_501",
+    "net": "USB_DATA1"
+  },
+  {
+    "sheet": "PS",
+    "row": 20,
+    "group": "PS ETH",
+    "pin": "A14",
+    "name": "PS_MIO22_501",
+    "net": "PHY1_RXCK"
+  },
+  {
+    "sheet": "PS",
+    "row": 20,
+    "group": "USB",
+    "pin": "B12",
+    "name": "PS_MIO34_501",
+    "net": "USB_DATA2"
+  },
+  {
+    "sheet": "PS",
+    "row": 21,
+    "group": "PS ETH",
+    "pin": "E11",
+    "name": "PS_MIO23_501",
+    "net": "PHY1_RXD0"
+  },
+  {
+    "sheet": "PS",
+    "row": 21,
+    "group": "USB",
+    "pin": "F14",
+    "name": "PS_MIO35_501",
+    "net": "USB_DATA3"
+  },
+  {
+    "sheet": "PS",
+    "row": 22,
+    "group": "PS ETH",
+    "pin": "B7",
+    "name": "PS_MIO24_501",
+    "net": "PHY1_RXD1"
+  },
+  {
+    "sheet": "PS",
+    "row": 22,
+    "group": "USB",
+    "pin": "A9",
+    "name": "PS_MIO36_501",
+    "net": "USB_CLK"
+  },
+  {
+    "sheet": "PS",
+    "row": 23,
+    "group": "PS ETH",
+    "pin": "F12",
+    "name": "PS_MIO25_501",
+    "net": "PHY1_RXD2"
+  },
+  {
+    "sheet": "PS",
+    "row": 23,
+    "group": "USB",
+    "pin": "B14",
+    "name": "PS_MIO37_501",
+    "net": "USB_DATA5"
+  },
+  {
+    "sheet": "PS",
+    "row": 24,
+    "group": "PS ETH",
+    "pin": "A13",
+    "name": "PS_MIO26_501",
+    "net": "PHY1_RXD3"
+  },
+  {
+    "sheet": "PS",
+    "row": 24,
+    "group": "USB",
+    "pin": "F13",
+    "name": "PS_MIO38_501",
+    "net": "USB_DATA6"
+  },
+  {
+    "sheet": "PS",
+    "row": 25,
+    "group": "PS ETH",
+    "pin": "D7",
+    "name": "PS_MIO27_501",
+    "net": "PHY1_RXCTL"
+  },
+  {
+    "sheet": "PS",
+    "row": 25,
+    "group": "USB",
+    "pin": "C13",
+    "name": "PS_MIO39_501",
+    "net": "USB_DATA7"
+  },
+  {
+    "sheet": "PS",
+    "row": 26,
+    "group": "PS ETH",
+    "pin": "D10",
+    "name": "PS_MIO52_501",
+    "net": "PHY1_MDC"
+  },
+  {
+    "sheet": "PS",
+    "row": 26,
+    "group": "USB",
+    "pin": "A6",
+    "name": "PS_MIO13_500",
+    "net": "PS_MIO13_USB_RST"
+  },
+  {
+    "sheet": "PS",
+    "row": 27,
+    "group": "PS ETH",
+    "pin": "C12",
+    "name": "PS_MIO53_501",
+    "net": "PHY1_MDIO"
+  },
+  {
+    "sheet": "PS",
+    "row": 32,
+    "group": "PS LED",
+    "pin": "D5",
+    "name": "PS_MIO7_500",
+    "net": "PS_MIO7_LED2"
+  },
+  {
+    "sheet": "PS",
+    "row": 32,
+    "group": "PS KEY",
+    "pin": "G6",
+    "name": "PS_MIO0_500",
+    "net": "PS_MIO0_KEY1"
+  },
+  {
+    "sheet": "PS",
+    "row": 32,
+    "group": "UART",
+    "pin": "G7",
+    "name": "PS_MIO10_500",
+    "net": "PS_MIO10_UART_RX"
+  },
+  {
+    "sheet": "PS",
+    "row": 33,
+    "group": "PS LED",
+    "pin": "E5",
+    "name": "PS_MIO8_500",
+    "net": "PS_MIO8_LED1"
+  },
+  {
+    "sheet": "PS",
+    "row": 33,
+    "group": "PS KEY",
+    "pin": "C5",
+    "name": "PS_MIO12_500",
+    "net": "PS_MIO12_KEY2"
+  },
+  {
+    "sheet": "PS",
+    "row": 33,
+    "group": "UART",
+    "pin": "B4",
+    "name": "PS_MIO11_500",
+    "net": "PS_MIO11_UART_TX"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 3,
+    "group": "40 PIN",
+    "pin": "W12",
+    "name": "IO_L4N_T0_13",
+    "net": "IO1_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 4,
+    "group": "40 PIN",
+    "pin": "V12",
+    "name": "IO_L4P_T0_13",
+    "net": "IO1_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 5,
+    "group": "40 PIN",
+    "pin": "V9",
+    "name": "IO_L1N_T0_13",
+    "net": "IO2_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 6,
+    "group": "40 PIN",
+    "pin": "V10",
+    "name": "IO_L1P_T0_13",
+    "net": "IO2_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 7,
+    "group": "40 PIN",
+    "pin": "U9",
+    "name": "IO_L6N_T0_VREF_13",
+    "net": "IO3_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 8,
+    "group": "40 PIN",
+    "pin": "U10",
+    "name": "IO_L6P_T0_13",
+    "net": "IO3_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 9,
+    "group": "40 PIN",
+    "pin": "AB12",
+    "name": "IO_L7N_T1_13",
+    "net": "IO4_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 10,
+    "group": "40 PIN",
+    "pin": "AA12",
+    "name": "IO_L7P_T1_13",
+    "net": "IO4_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 11,
+    "group": "40 PIN",
+    "pin": "Y10",
+    "name": "IO_L10N_T1_13",
+    "net": "IO5_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 12,
+    "group": "40 PIN",
+    "pin": "Y11",
+    "name": "IO_L10P_T1_13",
+    "net": "IO5_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 13,
+    "group": "40 PIN",
+    "pin": "U11",
+    "name": "IO_L5N_T0_13",
+    "net": "IO6_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 14,
+    "group": "40 PIN",
+    "pin": "U12",
+    "name": "IO_L5P_T0_13",
+    "net": "IO6_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 15,
+    "group": "40 PIN",
+    "pin": "AB9",
+    "name": "IO_L9N_T1_DQS_13",
+    "net": "IO7_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 16,
+    "group": "40 PIN",
+    "pin": "AB10",
+    "name": "IO_L9P_T1_DQS_13",
+    "net": "IO7_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 17,
+    "group": "40 PIN",
+    "pin": "AB11",
+    "name": "IO_L8N_T1_13",
+    "net": "IO8_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 18,
+    "group": "40 PIN",
+    "pin": "AA11",
+    "name": "IO_L8P_T1_13",
+    "net": "IO8_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 19,
+    "group": "40 PIN",
+    "pin": "W8",
+    "name": "IO_L2N_T0_13",
+    "net": "IO9_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 20,
+    "group": "40 PIN",
+    "pin": "V8",
+    "name": "IO_L2P_T0_13",
+    "net": "IO9_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 21,
+    "group": "40 PIN",
+    "pin": "W10",
+    "name": "IO_L3N_T0_DQS_13",
+    "net": "IO10_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 22,
+    "group": "40 PIN",
+    "pin": "W11",
+    "name": "IO_L3P_T0_DQS_13",
+    "net": "IO10_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 23,
+    "group": "40 PIN",
+    "pin": "AB6",
+    "name": "IO_L17N_T2_13",
+    "net": "IO11_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 24,
+    "group": "40 PIN",
+    "pin": "AB7",
+    "name": "IO_L17P_T2_13",
+    "net": "IO11_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 25,
+    "group": "40 PIN",
+    "pin": "AA8",
+    "name": "IO_L11N_T1_SRCC_13",
+    "net": "IO12_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 26,
+    "group": "40 PIN",
+    "pin": "AA9",
+    "name": "IO_L11P_T1_SRCC_13",
+    "net": "IO12_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 27,
+    "group": "40 PIN",
+    "pin": "AB4",
+    "name": "IO_L16N_T2_13",
+    "net": "IO13_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 28,
+    "group": "40 PIN",
+    "pin": "AB5",
+    "name": "IO_L16P_T2_13",
+    "net": "IO13_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 29,
+    "group": "40 PIN",
+    "pin": "AA6",
+    "name": "IO_L14N_T2_SRCC_13",
+    "net": "IO14_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 30,
+    "group": "40 PIN",
+    "pin": "AA7",
+    "name": "IO_L14P_T2_SRCC_13",
+    "net": "IO14_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 31,
+    "group": "40 PIN",
+    "pin": "Y5",
+    "name": "IO_L13N_T2_MRCC_13",
+    "net": "IO15_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 32,
+    "group": "40 PIN",
+    "pin": "Y6",
+    "name": "IO_L13P_T2_MRCC_13",
+    "net": "IO15_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 33,
+    "group": "40 PIN",
+    "pin": "AA4",
+    "name": "IO_L18N_T2_13",
+    "net": "IO16_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 34,
+    "group": "40 PIN",
+    "pin": "Y4",
+    "name": "IO_L18P_T2_13",
+    "net": "IO16_P"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 35,
+    "group": "40 PIN",
+    "pin": "AB1",
+    "name": "IO_L15N_T2_DQS_13",
+    "net": "IO17_N"
+  },
+  {
+    "sheet": "40 PIN",
+    "row": 36,
+    "group": "40 PIN",
+    "pin": "AB2",
+    "name": "IO_L15P_T2_DQS_13",
+    "net": "IO17_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 3,
+    "group": "FMC",
+    "pin": "L19",
+    "name": "IO_L12N_T1_MRCC_34",
+    "net": "FMC_CLK0_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 3,
+    "group": "FMC COM",
+    "pin": "AB14",
+    "name": "IO_L24P_T3_33",
+    "net": "FMC_PRSNT"
+  },
+  {
+    "sheet": "FMC",
+    "row": 4,
+    "group": "FMC",
+    "pin": "L18",
+    "name": "IO_L12P_T1_MRCC_34",
+    "net": "FMC_CLK0_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 4,
+    "group": "FMC COM",
+    "pin": "R7",
+    "name": "IO_0_13",
+    "net": "FMC_SCL"
+  },
+  {
+    "sheet": "FMC",
+    "row": 5,
+    "group": "FMC",
+    "pin": "C19",
+    "name": "IO_L12N_T1_MRCC_35",
+    "net": "FMC_CLK1_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 5,
+    "group": "FMC COM",
+    "pin": "U7",
+    "name": "IO_25_13",
+    "net": "FMC_SDA"
+  },
+  {
+    "sheet": "FMC",
+    "row": 6,
+    "group": "FMC",
+    "pin": "D18",
+    "name": "IO_L12P_T1_MRCC_35",
+    "net": "FMC_CLK1_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 6,
+    "group": "FMC COM",
+    "pin": "F17",
+    "name": "IO_L6N_T0_VREF_35",
+    "net": "FMC_VREF"
+  },
+  {
+    "sheet": "FMC",
+    "row": 7,
+    "group": "FMC",
+    "pin": "M20",
+    "name": "IO_L13N_T2_MRCC_34",
+    "net": "FMC_LA00_CC_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 7,
+    "group": "FMC COM",
+    "pin": "H20",
+    "name": "IO_L19N_T3_VREF_35",
+    "net": "FMC_VREF"
+  },
+  {
+    "sheet": "FMC",
+    "row": 8,
+    "group": "FMC",
+    "pin": "M19",
+    "name": "IO_L13P_T2_MRCC_34",
+    "net": "FMC_LA00_CC_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 8,
+    "group": "FMC COM",
+    "pin": "M16",
+    "name": "IO_L6N_T0_VREF_34",
+    "net": "FMC_VREF"
+  },
+  {
+    "sheet": "FMC",
+    "row": 9,
+    "group": "FMC",
+    "pin": "N20",
+    "name": "IO_L14N_T2_SRCC_34",
+    "net": "FMC_LA01_CC_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 9,
+    "group": "FMC COM",
+    "pin": "P15",
+    "name": "IO_L19N_T3_VREF_34",
+    "net": "FMC_VREF"
+  },
+  {
+    "sheet": "FMC",
+    "row": 10,
+    "group": "FMC",
+    "pin": "N19",
+    "name": "IO_L14P_T2_SRCC_34",
+    "net": "FMC_LA01_CC_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 11,
+    "group": "FMC",
+    "pin": "P18",
+    "name": "IO_L20N_T3_34",
+    "net": "FMC_LA02_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 12,
+    "group": "FMC",
+    "pin": "P17",
+    "name": "IO_L20P_T3_34",
+    "net": "FMC_LA02_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 13,
+    "group": "FMC",
+    "pin": "P22",
+    "name": "IO_L16N_T2_34",
+    "net": "FMC_LA03_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 14,
+    "group": "FMC",
+    "pin": "N22",
+    "name": "IO_L16P_T2_34",
+    "net": "FMC_LA03_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 15,
+    "group": "FMC",
+    "pin": "M22",
+    "name": "IO_L15N_T2_DQS_34",
+    "net": "FMC_LA04_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 16,
+    "group": "FMC",
+    "pin": "M21",
+    "name": "IO_L15P_T2_DQS_34",
+    "net": "FMC_LA04_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 17,
+    "group": "FMC",
+    "pin": "K18",
+    "name": "IO_L7N_T1_34",
+    "net": "FMC_LA05_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 18,
+    "group": "FMC",
+    "pin": "J18",
+    "name": "IO_L7P_T1_34",
+    "net": "FMC_LA05_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 19,
+    "group": "FMC",
+    "pin": "L22",
+    "name": "IO_L10N_T1_34",
+    "net": "FMC_LA06_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 20,
+    "group": "FMC",
+    "pin": "L21",
+    "name": "IO_L10P_T1_34",
+    "net": "FMC_LA06_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 21,
+    "group": "FMC",
+    "pin": "T17",
+    "name": "IO_L21N_T3_DQS_34",
+    "net": "FMC_LA07_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 22,
+    "group": "FMC",
+    "pin": "T16",
+    "name": "IO_L21P_T3_DQS_34",
+    "net": "FMC_LA07_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 23,
+    "group": "FMC",
+    "pin": "J22",
+    "name": "IO_L8N_T1_34",
+    "net": "FMC_LA08_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 24,
+    "group": "FMC",
+    "pin": "J21",
+    "name": "IO_L8P_T1_34",
+    "net": "FMC_LA08_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 25,
+    "group": "FMC",
+    "pin": "R21",
+    "name": "IO_L17N_T2_34",
+    "net": "FMC_LA09_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 26,
+    "group": "FMC",
+    "pin": "R20",
+    "name": "IO_L17P_T2_34",
+    "net": "FMC_LA09_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 27,
+    "group": "FMC",
+    "pin": "T19",
+    "name": "IO_L22N_T3_34",
+    "net": "FMC_LA10_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 28,
+    "group": "FMC",
+    "pin": "R19",
+    "name": "IO_L22P_T3_34",
+    "net": "FMC_LA10_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 29,
+    "group": "FMC",
+    "pin": "N18",
+    "name": "IO_L5N_T0_34",
+    "net": "FMC_LA11_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 30,
+    "group": "FMC",
+    "pin": "N17",
+    "name": "IO_L5P_T0_34",
+    "net": "FMC_LA11_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 31,
+    "group": "FMC",
+    "pin": "P21",
+    "name": "IO_L18N_T2_34",
+    "net": "FMC_LA12_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 32,
+    "group": "FMC",
+    "pin": "P20",
+    "name": "IO_L18P_T2_34",
+    "net": "FMC_LA12_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 33,
+    "group": "FMC",
+    "pin": "M17",
+    "name": "IO_L4N_T0_34",
+    "net": "FMC_LA13_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 34,
+    "group": "FMC",
+    "pin": "L17",
+    "name": "IO_L4P_T0_34",
+    "net": "FMC_LA13_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 35,
+    "group": "FMC",
+    "pin": "K20",
+    "name": "IO_L11N_T1_SRCC_34",
+    "net": "FMC_LA14_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 36,
+    "group": "FMC",
+    "pin": "K19",
+    "name": "IO_L11P_T1_SRCC_34",
+    "net": "FMC_LA14_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 37,
+    "group": "FMC",
+    "pin": "J17",
+    "name": "IO_L2N_T0_34",
+    "net": "FMC_LA15_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 38,
+    "group": "FMC",
+    "pin": "J16",
+    "name": "IO_L2P_T0_34",
+    "net": "FMC_LA15_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 39,
+    "group": "FMC",
+    "pin": "K21",
+    "name": "IO_L9N_T1_DQS_34",
+    "net": "FMC_LA16_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 40,
+    "group": "FMC",
+    "pin": "J20",
+    "name": "IO_L9P_T1_DQS_34",
+    "net": "FMC_LA16_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 41,
+    "group": "FMC",
+    "pin": "B20",
+    "name": "IO_L13N_T2_MRCC_35",
+    "net": "FMC_LA17_CC_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 42,
+    "group": "FMC",
+    "pin": "B19",
+    "name": "IO_L13P_T2_MRCC_35",
+    "net": "FMC_LA17_CC_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 43,
+    "group": "FMC",
+    "pin": "C20",
+    "name": "IO_L14N_T2_AD4N_SRCC_35",
+    "net": "FMC_LA18_CC_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 44,
+    "group": "FMC",
+    "pin": "D20",
+    "name": "IO_L14P_T2_AD4P_SRCC_35",
+    "net": "FMC_LA18_CC_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 45,
+    "group": "FMC",
+    "pin": "G16",
+    "name": "IO_L4N_T0_35",
+    "net": "FMC_LA19_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 46,
+    "group": "FMC",
+    "pin": "G15",
+    "name": "IO_L4P_T0_35",
+    "net": "FMC_LA19_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 47,
+    "group": "FMC",
+    "pin": "G21",
+    "name": "IO_L22N_T3_AD7N_35",
+    "net": "FMC_LA20_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 48,
+    "group": "FMC",
+    "pin": "G20",
+    "name": "IO_L22P_T3_AD7P_35",
+    "net": "FMC_LA20_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 49,
+    "group": "FMC",
+    "pin": "E20",
+    "name": "IO_L21N_T3_DQS_AD14N_35",
+    "net": "FMC_LA21_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 50,
+    "group": "FMC",
+    "pin": "E19",
+    "name": "IO_L21P_T3_DQS_AD14P_35",
+    "net": "FMC_LA21_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 51,
+    "group": "FMC",
+    "pin": "F19",
+    "name": "IO_L20N_T3_AD6N_35",
+    "net": "FMC_LA22_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 52,
+    "group": "FMC",
+    "pin": "G19",
+    "name": "IO_L20P_T3_AD6P_35",
+    "net": "FMC_LA22_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 53,
+    "group": "FMC",
+    "pin": "D15",
+    "name": "IO_L3N_T0_DQS_AD1N_35",
+    "net": "FMC_LA23_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 54,
+    "group": "FMC",
+    "pin": "E15",
+    "name": "IO_L3P_T0_DQS_AD1P_35",
+    "net": "FMC_LA23_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 55,
+    "group": "FMC",
+    "pin": "A19",
+    "name": "IO_L10N_T1_AD11N_35",
+    "net": "FMC_LA24_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 56,
+    "group": "FMC",
+    "pin": "A18",
+    "name": "IO_L10P_T1_AD11P_35",
+    "net": "FMC_LA24_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 57,
+    "group": "FMC",
+    "pin": "C22",
+    "name": "IO_L16N_T2_35",
+    "net": "FMC_LA25_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 58,
+    "group": "FMC",
+    "pin": "D22",
+    "name": "IO_L16P_T2_35",
+    "net": "FMC_LA25_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 59,
+    "group": "FMC",
+    "pin": "E18",
+    "name": "IO_L5N_T0_AD9N_35",
+    "net": "FMC_LA26_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 60,
+    "group": "FMC",
+    "pin": "F18",
+    "name": "IO_L5P_T0_AD9P_35",
+    "net": "FMC_LA26_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 61,
+    "group": "FMC",
+    "pin": "D21",
+    "name": "IO_L17N_T2_AD5N_35",
+    "net": "FMC_LA27_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 62,
+    "group": "FMC",
+    "pin": "E21",
+    "name": "IO_L17P_T2_AD5P_35",
+    "net": "FMC_LA27_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 63,
+    "group": "FMC",
+    "pin": "A17",
+    "name": "IO_L9N_T1_DQS_AD3N_35",
+    "net": "FMC_LA28_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 64,
+    "group": "FMC",
+    "pin": "A16",
+    "name": "IO_L9P_T1_DQS_AD3P_35",
+    "net": "FMC_LA28_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 65,
+    "group": "FMC",
+    "pin": "C18",
+    "name": "IO_L11N_T1_SRCC_35",
+    "net": "FMC_LA29_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 66,
+    "group": "FMC",
+    "pin": "C17",
+    "name": "IO_L11P_T1_SRCC_35",
+    "net": "FMC_LA29_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 67,
+    "group": "FMC",
+    "pin": "B15",
+    "name": "IO_L7N_T1_AD2N_35",
+    "net": "FMC_LA30_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 68,
+    "group": "FMC",
+    "pin": "C15",
+    "name": "IO_L7P_T1_AD2P_35",
+    "net": "FMC_LA30_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 69,
+    "group": "FMC",
+    "pin": "B17",
+    "name": "IO_L8N_T1_AD10N_35",
+    "net": "FMC_LA31_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 70,
+    "group": "FMC",
+    "pin": "B16",
+    "name": "IO_L8P_T1_AD10P_35",
+    "net": "FMC_LA31_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 71,
+    "group": "FMC",
+    "pin": "A22",
+    "name": "IO_L15N_T2_DQS_AD12N_35",
+    "net": "FMC_LA32_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 72,
+    "group": "FMC",
+    "pin": "A21",
+    "name": "IO_L15P_T2_DQS_AD12P_35",
+    "net": "FMC_LA32_P"
+  },
+  {
+    "sheet": "FMC",
+    "row": 73,
+    "group": "FMC",
+    "pin": "B22",
+    "name": "IO_L18N_T2_AD13N_35",
+    "net": "FMC_LA33_N"
+  },
+  {
+    "sheet": "FMC",
+    "row": 74,
+    "group": "FMC",
+    "pin": "B21",
+    "name": "IO_L18P_T2_AD13P_35",
+    "net": "FMC_LA33_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 3,
+    "group": "PL ETH",
+    "pin": "Y19",
+    "name": "IO_L11P_T1_SRCC_33",
+    "net": "PHY2_RXCK"
+  },
+  {
+    "sheet": "其他",
+    "row": 3,
+    "group": "HDMI",
+    "pin": "Y16",
+    "name": "IO_L14N_T2_SRCC_33",
+    "net": "HDMI1_CLK_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 3,
+    "group": "MIPI",
+    "pin": "Y8",
+    "name": "IO_L12N_T1_MRCC_13",
+    "net": "MIPI_CLK_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 4,
+    "group": "PL ETH",
+    "pin": "V19",
+    "name": "IO_L6N_T0_VREF_33",
+    "net": "PHY2_RXCTL"
+  },
+  {
+    "sheet": "其他",
+    "row": 4,
+    "group": "HDMI",
+    "pin": "W16",
+    "name": "IO_L14P_T2_SRCC_33",
+    "net": "HDMI1_CLK_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 4,
+    "group": "MIPI",
+    "pin": "Y9",
+    "name": "IO_L12P_T1_MRCC_13",
+    "net": "MIPI_CLK_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 5,
+    "group": "PL ETH",
+    "pin": "W20",
+    "name": "IO_L4P_T0_33",
+    "net": "PHY2_RXD0"
+  },
+  {
+    "sheet": "其他",
+    "row": 5,
+    "group": "HDMI",
+    "pin": "AB17",
+    "name": "IO_L17N_T2_33",
+    "net": "HDMI1_DATA0_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 5,
+    "group": "MIPI",
+    "pin": "W5",
+    "name": "IO_L24N_T3_13",
+    "net": "MIPI_LAN0_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 6,
+    "group": "PL ETH",
+    "pin": "W21",
+    "name": "IO_L4N_T0_33",
+    "net": "PHY2_RXD1"
+  },
+  {
+    "sheet": "其他",
+    "row": 6,
+    "group": "HDMI",
+    "pin": "AA17",
+    "name": "IO_L17P_T2_33",
+    "net": "HDMI1_DATA0_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 6,
+    "group": "MIPI",
+    "pin": "W6",
+    "name": "IO_L24P_T3_13",
+    "net": "MIPI_LAN0_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 7,
+    "group": "PL ETH",
+    "pin": "U20",
+    "name": "IO_L5P_T0_33",
+    "net": "PHY2_RXD2"
+  },
+  {
+    "sheet": "其他",
+    "row": 7,
+    "group": "HDMI",
+    "pin": "V17",
+    "name": "IO_L16N_T2_33",
+    "net": "HDMI1_DATA1_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 7,
+    "group": "MIPI",
+    "pin": "U4",
+    "name": "IO_L20N_T3_13",
+    "net": "MIPI_LAN1_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 8,
+    "group": "PL ETH",
+    "pin": "V20",
+    "name": "IO_L5N_T0_33",
+    "net": "PHY2_RXD3"
+  },
+  {
+    "sheet": "其他",
+    "row": 8,
+    "group": "HDMI",
+    "pin": "U17",
+    "name": "IO_L16P_T2_33",
+    "net": "HDMI1_DATA1_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 8,
+    "group": "MIPI",
+    "pin": "T4",
+    "name": "IO_L20P_T3_13",
+    "net": "MIPI_LAN1_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 9,
+    "group": "PL ETH",
+    "pin": "AB22",
+    "name": "IO_L7N_T1_33",
+    "net": "PHY2_TXCK"
+  },
+  {
+    "sheet": "其他",
+    "row": 9,
+    "group": "HDMI",
+    "pin": "U16",
+    "name": "IO_L15N_T2_DQS_33",
+    "net": "HDMI1_DATA2_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 9,
+    "group": "MIPI",
+    "pin": "T6",
+    "name": "IO_L19N_T3_VREF_13",
+    "net": "MIPI_LP0_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 10,
+    "group": "PL ETH",
+    "pin": "AB21",
+    "name": "IO_L8N_T1_33",
+    "net": "PHY2_TXCTL"
+  },
+  {
+    "sheet": "其他",
+    "row": 10,
+    "group": "HDMI",
+    "pin": "U15",
+    "name": "IO_L15P_T2_DQS_33",
+    "net": "HDMI1_DATA2_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 10,
+    "group": "MIPI",
+    "pin": "R6",
+    "name": "IO_L19P_T3_13",
+    "net": "MIPI_LP0_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 11,
+    "group": "PL ETH",
+    "pin": "T21",
+    "name": "IO_L1P_T0_33",
+    "net": "PHY2_TXD0"
+  },
+  {
+    "sheet": "其他",
+    "row": 11,
+    "group": "HDMI",
+    "pin": "Y18",
+    "name": "IO_L12P_T1_MRCC_33",
+    "net": "HDMI1_HPD"
+  },
+  {
+    "sheet": "其他",
+    "row": 11,
+    "group": "MIPI",
+    "pin": "W7",
+    "name": "IO_L23N_T3_13",
+    "net": "MIPI_LP1_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 12,
+    "group": "PL ETH",
+    "pin": "U21",
+    "name": "IO_L1N_T0_33",
+    "net": "PHY2_TXD1"
+  },
+  {
+    "sheet": "其他",
+    "row": 12,
+    "group": "HDMI",
+    "pin": "AA16",
+    "name": "IO_L18P_T2_33",
+    "net": "HDMI1_SCL"
+  },
+  {
+    "sheet": "其他",
+    "row": 12,
+    "group": "MIPI",
+    "pin": "V7",
+    "name": "IO_L23P_T3_13",
+    "net": "MIPI_LP1_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 13,
+    "group": "PL ETH",
+    "pin": "AA22",
+    "name": "IO_L7P_T1_33",
+    "net": "PHY2_TXD2"
+  },
+  {
+    "sheet": "其他",
+    "row": 13,
+    "group": "HDMI",
+    "pin": "AB16",
+    "name": "IO_L18N_T2_33",
+    "net": "HDMI1_SDA"
+  },
+  {
+    "sheet": "其他",
+    "row": 13,
+    "group": "MIPI",
+    "pin": "U5",
+    "name": "IO_L22N_T3_13",
+    "net": "MIPI_LPCLK_N"
+  },
+  {
+    "sheet": "其他",
+    "row": 14,
+    "group": "PL ETH",
+    "pin": "AA21",
+    "name": "IO_L8P_T1_33",
+    "net": "PHY2_TXD3"
+  },
+  {
+    "sheet": "其他",
+    "row": 14,
+    "group": "MIPI",
+    "pin": "U6",
+    "name": "IO_L22P_T3_13",
+    "net": "MIPI_LPCLK_P"
+  },
+  {
+    "sheet": "其他",
+    "row": 15,
+    "group": "PL ETH",
+    "pin": "Y21",
+    "name": "IO_L9N_T1_DQS_33",
+    "net": "PHY2_RST"
+  },
+  {
+    "sheet": "其他",
+    "row": 15,
+    "group": "MIPI",
+    "pin": "U14",
+    "name": "IO_25_33",
+    "net": "CAM_CLK"
+  },
+  {
+    "sheet": "其他",
+    "row": 16,
+    "group": "PL ETH",
+    "pin": "AB20",
+    "name": "IO_L10N_T1_33",
+    "net": "PHY2_MDC"
+  },
+  {
+    "sheet": "其他",
+    "row": 16,
+    "group": "MIPI",
+    "pin": "AB15",
+    "name": "IO_L24N_T3_33",
+    "net": "CAM_GPIO"
+  },
+  {
+    "sheet": "其他",
+    "row": 17,
+    "group": "PL ETH",
+    "pin": "AB19",
+    "name": "IO_L10P_T1_33",
+    "net": "PHY2_MDIO"
+  },
+  {
+    "sheet": "其他",
+    "row": 17,
+    "group": "MIPI",
+    "pin": "V5",
+    "name": "IO_L21P_T3_DQS_13",
+    "net": "CAM_SCL"
+  },
+  {
+    "sheet": "其他",
+    "row": 18,
+    "group": "MIPI",
+    "pin": "V4",
+    "name": "IO_L21N_T3_DQS_13",
+    "net": "CAM_SDA"
+  },
+  {
+    "sheet": "其他",
+    "row": 23,
+    "group": "CAN",
+    "pin": "Y14",
+    "name": "IO_L22P_T3_33",
+    "net": "CAN1_RX"
+  },
+  {
+    "sheet": "其他",
+    "row": 23,
+    "group": "RS485",
+    "pin": "AA19",
+    "name": "IO_L11N_T1_SRCC_33",
+    "net": "RS485_RXD1"
+  },
+  {
+    "sheet": "其他",
+    "row": 23,
+    "group": "LCD",
+    "pin": "AA13",
+    "name": "IO_L23N_T3_33",
+    "net": "LCD_CS"
+  },
+  {
+    "sheet": "其他",
+    "row": 24,
+    "group": "CAN",
+    "pin": "AA14",
+    "name": "IO_L22N_T3_33",
+    "net": "CAN1_TX"
+  },
+  {
+    "sheet": "其他",
+    "row": 24,
+    "group": "RS485",
+    "pin": "W22",
+    "name": "IO_L3N_T0_DQS_33",
+    "net": "RS485_TXD1"
+  },
+  {
+    "sheet": "其他",
+    "row": 24,
+    "group": "LCD",
+    "pin": "W13",
+    "name": "IO_L20N_T3_33",
+    "net": "LCD_DC"
+  },
+  {
+    "sheet": "其他",
+    "row": 25,
+    "group": "CAN",
+    "pin": "W15",
+    "name": "IO_L21P_T3_DQS_33",
+    "net": "CAN2_RX"
+  },
+  {
+    "sheet": "其他",
+    "row": 25,
+    "group": "RS485",
+    "pin": "Y20",
+    "name": "IO_L9P_T1_DQS_33",
+    "net": "RS485_DE1"
+  },
+  {
+    "sheet": "其他",
+    "row": 25,
+    "group": "LCD",
+    "pin": "Y13",
+    "name": "IO_L23P_T3_33",
+    "net": "LCD_LED"
+  },
+  {
+    "sheet": "其他",
+    "row": 26,
+    "group": "CAN",
+    "pin": "Y15",
+    "name": "IO_L21N_T3_DQS_33",
+    "net": "CAN2_TX"
+  },
+  {
+    "sheet": "其他",
+    "row": 26,
+    "group": "RS485",
+    "pin": "V22",
+    "name": "IO_L3P_T0_DQS_33",
+    "net": "RS485_RXD2"
+  },
+  {
+    "sheet": "其他",
+    "row": 26,
+    "group": "LCD",
+    "pin": "AA18",
+    "name": "IO_L12N_T1_MRCC_33",
+    "net": "LCD_RST"
+  },
+  {
+    "sheet": "其他",
+    "row": 27,
+    "group": "RS485",
+    "pin": "T22",
+    "name": "IO_L2P_T0_33",
+    "net": "RS485_TXD2"
+  },
+  {
+    "sheet": "其他",
+    "row": 27,
+    "group": "LCD",
+    "pin": "V18",
+    "name": "IO_L6P_T0_33",
+    "net": "LCD_SCL"
+  },
+  {
+    "sheet": "其他",
+    "row": 28,
+    "group": "RS485",
+    "pin": "U22",
+    "name": "IO_L2N_T0_33",
+    "net": "RS485_DE2"
+  },
+  {
+    "sheet": "其他",
+    "row": 28,
+    "group": "LCD",
+    "pin": "U19",
+    "name": "IO_0_33",
+    "net": "LCD_SDA"
+  },
+  {
+    "sheet": "其他",
+    "row": 33,
+    "group": "PL LED",
+    "pin": "V15",
+    "name": "IO_L19N_T3_VREF_33",
+    "net": "PL_LED1"
+  },
+  {
+    "sheet": "其他",
+    "row": 33,
+    "group": "PL KEY",
+    "pin": "W18",
+    "name": "IO_L13N_T2_MRCC_33",
+    "net": "PL_KEY1"
+  },
+  {
+    "sheet": "其他",
+    "row": 33,
+    "group": "PL CLK",
+    "pin": "W17",
+    "name": "IO_L13P_T2_MRCC_33",
+    "net": "PL_CLK"
+  },
+  {
+    "sheet": "其他",
+    "row": 34,
+    "group": "PL LED",
+    "pin": "V13",
+    "name": "IO_L20P_T3_33",
+    "net": "PL_LED2"
+  },
+  {
+    "sheet": "其他",
+    "row": 34,
+    "group": "PL KEY",
+    "pin": "V14",
+    "name": "IO_L19P_T3_33",
+    "net": "PL_KEY2"
+  }
+]
